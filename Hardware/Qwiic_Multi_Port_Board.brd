@@ -1880,9 +1880,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$4" library="buzzard_labels (75)" package="MULTI1" value="" x="8.128" y="11.811" smashed="yes"/>
 <element name="U$5" library="buzzard_labels (75)" package="PORT2" value="" x="12.446" y="11.811" smashed="yes"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="" x="12.7" y="13.843" smashed="yes"/>
-<element name="U$3" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="" x="12.7" y="13.843" smashed="yes" rot="MR0"/>
-<element name="U$7" library="buzzard_labels (75)" package="MULTI1" value="" x="17.399" y="11.811" smashed="yes" rot="MR0"/>
-<element name="U$8" library="buzzard_labels (75)" package="PORT2" value="" x="12.954" y="11.811" smashed="yes" rot="MR0"/>
+<element name="U$3" library="SparkFun-Aesthetics" package="QWIIC_6MM" value="" x="12.7" y="6.223" smashed="yes" rot="MR0"/>
+<element name="U$7" library="buzzard_labels (75)" package="MULTI1" value="" x="14.859" y="4.191" smashed="yes" rot="MR0"/>
+<element name="U$8" library="buzzard_labels (75)" package="PORT2" value="" x="14.224" y="2.921" smashed="yes" rot="MR0"/>
 <element name="H1" library="SparkFun-Hardware" package="STAND-OFF-TIGHT" value="STAND-OFFTIGHT" x="16.51" y="16.51" smashed="yes">
 <attribute name="NAME" x="16.51" y="18.161" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="16.51" y="14.859" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>

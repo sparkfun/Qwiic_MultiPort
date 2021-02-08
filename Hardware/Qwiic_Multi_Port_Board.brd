@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -48,7 +48,7 @@
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -1850,20 +1850,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun-2-layer-TIGHT">
-<description language="en">&lt;b&gt;SparkFun 2 Layer Design Rule Checks - STANDARD/TIGHT/FAB-LIMIT&lt;/b&gt;
+<designrules name="SparkFun-2-Layer-General-JLCPCB">
+<description language="en">&lt;b&gt;2 Layer General Rules for JLCPCB&lt;/b&gt;
 &lt;p&gt;
-These rules have been curated by SparkFuns DFM commitee. After doing much research, communicating with our multiple fab houses, and getting quotes of various designs, we have compiled three DRU files. 
-&lt;p&gt;
-&lt;b&gt;STANDARD:&lt;/b&gt; This is more of a &quot;best case scenario&quot; set of limitations. If your design has the space, and/or you have the time to work within these parameters, please do. Larger trace width and clearance makes for easier visual inspection of the PCB while troubleshooting (useful in production and to the end user). It also allows for better ability to hack a trace (if you are crazy enough to scrape away the mask and solder to a trace). Another thing to keep in mind is that more metal is just more robust. 
-&lt;p&gt;
-&lt;b&gt;TIGHT:&lt;/b&gt; This is where cost comes into play. We have found that most fab houses begin to add extra charges when you go smaller than these specs. In some cases, going to less than 15 mil trace can increase the cost by 10%. (This is why we have set the min drill on this DRU to 15 mil) Same story for traces thinner than 7 mil. To avoid those extra charges, then stay within the rules of this DRU.
-&lt;p&gt;
-&lt;b&gt;FAB-LIMIT:&lt;/b&gt; These set of rules are at the very limit of most fab houses capabilities. You will pay more for these specs, and it should be used on designs that have a darned good reason to need 4 mil vias and 4 mil traces.
-&lt;p&gt;
-**NOTE Clearance, Distance, Sizes, and Restring are all set to different limits in each of these three DRU files. Please compare the files within the CAM job editor window of eagle to see all the numbers.
-&lt;p&gt;
-***NOTE, Please set your Net Classes to default (0mil for all settings), so that it won't effect the DRC when you run it with these settings.</description>
+These are the free and generally easy to produce 2-layer PCB design rules. You can certainly go smaller but if the design doesn't call for it, these rules provide good guidance.
+&lt;ul&gt;
+&lt;li&gt;2 Layer&lt;/li&gt;
+&lt;li&gt;7mil Trace/Space&lt;/li&gt;
+&lt;li&gt;7mil Annular Rings&lt;/li&gt;
+&lt;li&gt;12mil Vias&lt;/li&gt;
+&lt;li&gt;3mil Stop Mask&lt;/li&gt;
+&lt;/ul&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
@@ -1882,7 +1879,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="mdDrill" value="7mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="7mil"/>
-<param name="msDrill" value="15mil"/>
+<param name="msDrill" value="0.3mm"/>
 <param name="msMicroVia" value="9.99mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
@@ -1913,14 +1910,14 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="3mil"/>
+<param name="mlMaxStopFrame" value="3mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
 <param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
-<param name="srMinRoundness" value="0mil"/>
-<param name="srMaxRoundness" value="0mil"/>
+<param name="srMinRoundness" value="2mil"/>
+<param name="srMaxRoundness" value="2mil"/>
 <param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
@@ -2072,10 +2069,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="DIO-00819" x="10.795" y="17.145" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="10.795" y="16.51" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="1k" x="10.795" y="15.875" smashed="yes">
-<attribute name="NAME" x="10.795" y="16.637" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-07856" x="10.795" y="15.875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="10.795" y="15.113" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<element name="R1" library="SparkFun-Resistors" package="0603" value="1k" x="10.795" y="15.621" smashed="yes">
+<attribute name="NAME" x="10.795" y="16.383" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value="RES-07856" x="10.795" y="15.621" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" x="10.795" y="14.859" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="U$2" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="12.7" y="8.89" smashed="yes"/>
 <element name="U$6" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="" x="12.7" y="12.7" smashed="yes" rot="MR0"/>
@@ -2095,19 +2092,19 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <via x="16.256" y="11.303" extent="1-16" drill="0.381"/>
 <wire x1="16.256" y1="13.462" x2="16.256" y2="11.303" width="0.254" layer="1"/>
 <wire x1="11.2" y1="20.32" x2="11.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="13.105" y1="17.526" x2="11.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="13.105" y1="17.526" x2="13.105" y2="16.002" width="0.254" layer="1"/>
-<wire x1="13.105" y1="16.002" x2="13.105" y2="12.216" width="0.254" layer="1"/>
-<wire x1="13.105" y1="12.216" x2="11.811" y2="10.922" width="0.254" layer="1"/>
+<wire x1="12.851" y1="17.78" x2="11.2" y2="19.431" width="0.254" layer="1"/>
+<wire x1="12.851" y1="17.78" x2="12.851" y2="16.002" width="0.254" layer="1"/>
+<wire x1="12.851" y1="16.002" x2="12.851" y2="11.962" width="0.254" layer="1"/>
+<wire x1="12.851" y1="11.962" x2="11.811" y2="10.922" width="0.254" layer="1"/>
 <via x="11.811" y="10.922" extent="1-16" drill="0.381"/>
 <wire x1="11.811" y1="10.922" x2="11.811" y2="10.16" width="0.254" layer="16"/>
 <wire x1="11.811" y1="10.16" x2="14.224" y2="7.747" width="0.254" layer="16"/>
 <via x="14.224" y="7.747" extent="1-16" drill="0.381"/>
 <wire x1="14.224" y1="7.747" x2="14.224" y2="5.104" width="0.254" layer="1"/>
 <wire x1="14.2" y1="5.08" x2="14.224" y2="5.104" width="0.254" layer="1"/>
-<wire x1="13.105" y1="16.002" x2="10.414" y2="16.002" width="0.254" layer="16"/>
+<wire x1="12.851" y1="16.002" x2="10.414" y2="16.002" width="0.254" layer="16"/>
 <wire x1="10.414" y1="16.002" x2="6.731" y2="12.319" width="0.254" layer="16"/>
-<via x="13.105" y="16.002" extent="1-16" drill="0.381"/>
+<via x="12.851" y="16.002" extent="1-16" drill="0.381"/>
 <wire x1="6.6929" y1="11.176" x2="6.731" y2="11.2141" width="0.254" layer="16"/>
 <wire x1="6.731" y1="12.319" x2="6.731" y2="11.2141" width="0.254" layer="16"/>
 <wire x1="5.08" y1="11.2" x2="6.6689" y2="11.2" width="0.254" layer="1"/>
@@ -2137,18 +2134,18 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="5.08" y1="12.2" x2="7.739" y2="12.2" width="0.254" layer="1"/>
 <wire x1="7.739" y1="12.2" x2="7.874" y2="12.065" width="0.254" layer="1"/>
 <wire x1="12.2" y1="20.32" x2="12.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="13.851" y1="17.78" x2="12.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="13.851" y1="17.78" x2="13.851" y2="11.43" width="0.254" layer="1"/>
+<wire x1="13.597" y1="18.034" x2="12.2" y2="19.431" width="0.254" layer="1"/>
+<wire x1="13.597" y1="18.034" x2="13.597" y2="11.176" width="0.254" layer="1"/>
 <wire x1="11.819" y1="10.16" x2="11.819" y2="8.7069125" width="0.254" layer="1"/>
 <wire x1="11.819" y1="8.7069125" x2="11.77954375" y2="8.66745625" width="0.254" layer="1"/>
 <wire x1="20.32" y1="13.2" x2="18.153" y2="13.2" width="0.254" layer="1"/>
 <wire x1="18.153" y1="13.2" x2="17.05004375" y2="12.09704375" width="0.254" layer="1"/>
-<wire x1="7.874" y1="12.065" x2="9.017" y2="10.922" width="0.254" layer="1"/>
-<wire x1="9.525" y1="10.922" x2="9.017" y2="10.922" width="0.254" layer="1"/>
-<wire x1="10.287" y1="10.16" x2="9.525" y2="10.922" width="0.254" layer="1"/>
-<wire x1="10.287" y1="10.16" x2="11.819" y2="10.16" width="0.254" layer="1"/>
+<wire x1="7.874" y1="12.065" x2="8.89" y2="11.049" width="0.254" layer="1"/>
+<wire x1="9.779" y1="11.049" x2="8.89" y2="11.049" width="0.254" layer="1"/>
+<wire x1="10.668" y1="10.16" x2="9.779" y2="11.049" width="0.254" layer="1"/>
+<wire x1="10.668" y1="10.16" x2="11.819" y2="10.16" width="0.254" layer="1"/>
 <wire x1="11.819" y1="10.16" x2="12.581" y2="10.16" width="0.254" layer="1"/>
-<wire x1="12.581" y1="10.16" x2="13.851" y2="11.43" width="0.254" layer="1"/>
+<wire x1="12.581" y1="10.16" x2="13.597" y2="11.176" width="0.254" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="J2" pad="1"/>
@@ -2204,23 +2201,23 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="11.684" y1="13.208" x2="11.676" y2="13.2" width="0.508" layer="1"/>
 <wire x1="11.676" y1="13.2" x2="5.08" y2="13.2" width="0.508" layer="1"/>
 <wire x1="13.2" y1="20.32" x2="13.2" y2="19.558" width="0.508" layer="1"/>
-<wire x1="14.47" y1="18.288" x2="13.2" y2="19.558" width="0.508" layer="1"/>
-<wire x1="14.47" y1="18.288" x2="14.47" y2="9.398" width="0.508" layer="1"/>
-<wire x1="16.129" y1="9.398" x2="14.47" y2="9.398" width="0.508" layer="1"/>
+<wire x1="14.216" y1="18.542" x2="13.2" y2="19.558" width="0.508" layer="1"/>
+<wire x1="14.216" y1="18.542" x2="14.216" y2="9.398" width="0.508" layer="1"/>
+<wire x1="16.129" y1="9.398" x2="14.216" y2="9.398" width="0.508" layer="1"/>
 <wire x1="20.32" y1="12.2" x2="18.169" y2="12.2" width="0.508" layer="1"/>
 <wire x1="18.169" y1="12.2" x2="18.161" y2="12.192" width="0.254" layer="1"/>
 <wire x1="12.2" y1="5.08" x2="12.2" y2="7.882" width="0.508" layer="1"/>
 <wire x1="12.2" y1="7.882" x2="13.716" y2="9.398" width="0.508" layer="1"/>
 <contactref element="R1" pad="2"/>
-<wire x1="11.645" y1="15.875" x2="11.645" y2="13.247" width="0.508" layer="1"/>
+<wire x1="11.645" y1="15.621" x2="11.645" y2="13.247" width="0.508" layer="1"/>
 <wire x1="11.645" y1="13.247" x2="11.684" y2="13.208" width="0.508" layer="1"/>
-<wire x1="14.47" y1="9.398" x2="13.716" y2="9.398" width="0.508" layer="1"/>
+<wire x1="14.216" y1="9.398" x2="13.716" y2="9.398" width="0.508" layer="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="9.918" y1="15.902" x2="9.945" y2="15.875" width="0.254" layer="1"/>
-<wire x1="9.918" y1="17.145" x2="9.918" y2="15.902" width="0.254" layer="1"/>
+<wire x1="9.918" y1="15.648" x2="9.945" y2="15.621" width="0.254" layer="1"/>
+<wire x1="9.918" y1="17.145" x2="9.918" y2="15.648" width="0.254" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

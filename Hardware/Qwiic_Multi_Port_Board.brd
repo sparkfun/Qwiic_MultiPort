@@ -3,7 +3,7 @@
 <eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -46,15 +46,15 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -175,6 +175,10 @@
 <wire x1="8.89" y1="16.51" x2="0" y2="16.51" width="0.2032" layer="20"/>
 <text x="14.097" y="0.508" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">v10</text>
 <text x="48.26" y="-8.89" size="1.27" layer="51" font="vector" ratio="15">Priyanka Makin</text>
+<dimension x1="8.89" y1="25.4" x2="16.51" y2="25.4" x3="12.7" y3="27.94" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<dimension x1="0" y1="16.51" x2="25.4" y2="16.51" x3="12.7" y3="33.02" textsize="1.778" textratio="15" layer="47" unit="inch"/>
+<text x="16.002" y="33.782" size="1.778" layer="47" font="vector" ratio="15">in</text>
+<text x="17.399" y="28.575" size="1.778" layer="47" font="vector" ratio="15">in</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -2144,8 +2148,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J2" pad="2"/>
 <contactref element="J4" pad="2"/>
 <via x="11.684" y="13.208" extent="1-16" drill="0.381"/>
-<wire x1="17.145" y1="13.208" x2="14.224" y2="13.208" width="0.508" layer="16"/>
-<wire x1="14.224" y1="13.208" x2="11.684" y2="13.208" width="0.508" layer="16"/>
+<wire x1="17.145" y1="13.208" x2="13.716" y2="13.208" width="0.508" layer="16"/>
+<wire x1="13.716" y1="13.208" x2="11.684" y2="13.208" width="0.508" layer="16"/>
 <wire x1="17.145" y1="13.208" x2="18.161" y2="12.192" width="0.508" layer="16"/>
 <via x="18.161" y="12.192" extent="1-16" drill="0.381"/>
 <wire x1="18.161" y1="12.192" x2="18.161" y2="11.43" width="0.508" layer="1"/>
@@ -2163,18 +2167,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="13.2" y1="19.558" x2="13.962" y2="18.796" width="0.508" layer="1"/>
 <wire x1="13.962" y1="18.796" x2="13.97" y2="18.796" width="0.508" layer="1"/>
 <via x="13.97" y="18.796" extent="1-16" drill="0.381"/>
-<wire x1="13.97" y1="18.796" x2="14.224" y2="18.542" width="0.508" layer="16"/>
-<wire x1="14.224" y1="18.542" x2="14.224" y2="13.208" width="0.508" layer="16"/>
 <wire x1="13.97" y1="18.796" x2="11.049" y2="18.796" width="0.508" layer="16"/>
-<wire x1="10.1727" y1="17.9197" x2="10.1727" y2="16.002" width="0.508" layer="16"/>
-<wire x1="11.049" y1="18.796" x2="10.1727" y2="17.9197" width="0.508" layer="16"/>
-<wire x1="10.1727" y1="16.002" x2="10.2743" y2="16.002" width="0" layer="19" extent="16-16"/>
+<wire x1="11.049" y1="18.796" x2="10.3505" y2="18.0975" width="0.508" layer="16"/>
+<wire x1="13.97" y1="18.796" x2="13.97" y2="18.288" width="0.508" layer="16"/>
+<wire x1="13.97" y1="18.288" x2="13.208" y2="17.526" width="0.508" layer="16"/>
+<wire x1="13.208" y1="14.986" x2="13.716" y2="14.478" width="0.508" layer="16"/>
+<wire x1="13.716" y1="14.478" x2="13.716" y2="13.208" width="0.508" layer="16"/>
+<wire x1="13.208" y1="17.526" x2="13.208" y2="14.986" width="0.508" layer="16"/>
+<wire x1="10.2743" y1="16.002" x2="10.2743" y2="18.0213" width="0.508" layer="16"/>
+<wire x1="10.2743" y1="18.0213" x2="10.3505" y2="18.0975" width="0.508" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="9.791" y1="16.156" x2="9.945" y2="16.002" width="0.254" layer="1"/>
-<wire x1="9.791" y1="17.399" x2="9.791" y2="16.156" width="0.254" layer="1"/>
+<wire x1="9.791" y1="17.399" x2="9.945" y2="17.245" width="0.254" layer="1"/>
+<wire x1="9.945" y1="17.245" x2="9.945" y2="16.002" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="R1" pad="2"/>

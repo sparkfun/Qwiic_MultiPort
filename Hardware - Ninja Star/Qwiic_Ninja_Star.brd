@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -46,9 +46,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -2089,10 +2089,10 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="LOGO7" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="22.606" y="3.302" smashed="yes" rot="MR0"/>
 <element name="LOGO8" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="SFE_LOGO_FLAME.1_INCH" x="3.429" y="18.161" smashed="yes" rot="MR90"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="ORDERING_INSTRUCTIONS" value="" x="44.45" y="50.8" smashed="yes"/>
-<element name="U$3" library="output" package="NINJA0" value="" x="15.748" y="19.812" smashed="yes"/>
-<element name="U$5" library="output" package="NINJA0" value="" x="22.86" y="12.065" smashed="yes" rot="MR0"/>
-<element name="U$6" library="output" package="STAR0" value="" x="20.447" y="19.812" smashed="yes"/>
-<element name="U$7" library="output" package="STAR0" value="" x="22.479" y="10.668" smashed="yes" rot="MR0"/>
+<element name="U$3" library="output" package="NINJA0" value="" x="15.621" y="19.685" smashed="yes"/>
+<element name="U$5" library="output" package="NINJA0" value="" x="22.86" y="12.192" smashed="yes" rot="MR0"/>
+<element name="U$6" library="output" package="STAR0" value="" x="20.447" y="19.685" smashed="yes"/>
+<element name="U$7" library="output" package="STAR0" value="" x="22.479" y="10.795" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="SCL">

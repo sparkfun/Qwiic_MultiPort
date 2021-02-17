@@ -2700,8 +2700,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
 <errors>
-<approved hash="5,16,712b7cf2533a99bf"/>
-<approved hash="19,16,968bc011c6e7e802"/>
+<approved hash="5,16,7f1776ee5d869773"/>
+<approved hash="19,16,969bce1dcce3e8b2"/>
 </errors>
 </board>
 </drawing>

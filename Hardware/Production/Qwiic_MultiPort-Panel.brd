@@ -1278,12 +1278,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="8.198" y="1.366"/>
 </polygon>
 </package>
-<package name="FIDUCIAL-1X2">
-<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
 &lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
 &lt;p&gt;Devices using:
 &lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
 </package>
 <package name="QWIIC_5MM">
 <polygon width="0.0127" layer="21">
@@ -1541,6 +1541,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="-0.4688" y="0" curve="-247.473915"/>
 <vertex x="0.1794" y="-0.4331"/>
 </polygon>
+</package>
+<package name="FIDUCIAL-1X2">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
 </package>
 </packages>
 </library>
@@ -2435,6 +2442,181 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="7.48" y="-0.01"/>
 </polygon>
 </package>
+<package name="#PWR#0">
+<polygon width="0.01" layer="21">
+<vertex x="0.56" y="0.59"/>
+<vertex x="0.5" y="0.59"/>
+<vertex x="0.45" y="0.57"/>
+<vertex x="0.39" y="0.56"/>
+<vertex x="0.33" y="0.53"/>
+<vertex x="0.28" y="0.51"/>
+<vertex x="0.23" y="0.47"/>
+<vertex x="0.19" y="0.43"/>
+<vertex x="0.15" y="0.39"/>
+<vertex x="0.11" y="0.34"/>
+<vertex x="0.08" y="0.29"/>
+<vertex x="0.05" y="0.24"/>
+<vertex x="0.03" y="0.19"/>
+<vertex x="0.01" y="0.13"/>
+<vertex x="0" y="0.07"/>
+<vertex x="0" y="0.01"/>
+<vertex x="0" y="-0.05"/>
+<vertex x="0.01" y="-0.11"/>
+<vertex x="0.02" y="-0.16"/>
+<vertex x="0.04" y="-0.22"/>
+<vertex x="0.07" y="-0.27"/>
+<vertex x="0.1" y="-0.32"/>
+<vertex x="0.13" y="-0.37"/>
+<vertex x="0.17" y="-0.42"/>
+<vertex x="0.21" y="-0.46"/>
+<vertex x="0.26" y="-0.49"/>
+<vertex x="0.31" y="-0.52"/>
+<vertex x="0.37" y="-0.55"/>
+<vertex x="0.42" y="-0.57"/>
+<vertex x="0.48" y="-0.58"/>
+<vertex x="0.54" y="-0.59"/>
+<vertex x="0.6" y="-0.59"/>
+<vertex x="3.8" y="-0.59"/>
+<vertex x="3.82" y="-0.56"/>
+<vertex x="3.82" y="0.56"/>
+<vertex x="3.79" y="0.59"/>
+<vertex x="0.59" y="0.59"/>
+<vertex x="0.85" y="0.22"/>
+<vertex x="0.97" y="0.22"/>
+<vertex x="1.02" y="0.21"/>
+<vertex x="1.07" y="0.17"/>
+<vertex x="1.08" y="0.12"/>
+<vertex x="1.07" y="0.06"/>
+<vertex x="1.03" y="0.02"/>
+<vertex x="1.09" y="-0.16"/>
+<vertex x="1.04" y="-0.18"/>
+<vertex x="0.98" y="-0.18"/>
+<vertex x="0.86" y="-0.18"/>
+<vertex x="0.84" y="-0.22"/>
+<vertex x="0.84" y="-0.34"/>
+<vertex x="0.82" y="-0.39"/>
+<vertex x="0.78" y="-0.41"/>
+<vertex x="0.7" y="-0.41"/>
+<vertex x="0.65" y="-0.39"/>
+<vertex x="0.64" y="-0.34"/>
+<vertex x="0.64" y="0.32"/>
+<vertex x="0.64" y="0.38"/>
+<vertex x="0.67" y="0.41"/>
+<vertex x="0.74" y="0.42"/>
+<vertex x="0.98" y="0.42"/>
+<vertex x="1.04" y="0.42"/>
+<vertex x="1.09" y="0.4"/>
+<vertex x="1.14" y="0.37"/>
+<vertex x="1.19" y="0.33"/>
+<vertex x="1.23" y="0.29"/>
+<vertex x="1.26" y="0.24"/>
+<vertex x="1.29" y="0.18"/>
+<vertex x="1.46" y="0.24"/>
+<vertex x="1.44" y="0.3"/>
+<vertex x="1.44" y="0.35"/>
+<vertex x="1.47" y="0.39"/>
+<vertex x="1.53" y="0.42"/>
+<vertex x="1.59" y="0.42"/>
+<vertex x="1.62" y="0.38"/>
+<vertex x="1.75" y="-0.01"/>
+<vertex x="1.77" y="0.01"/>
+<vertex x="1.89" y="0.35"/>
+<vertex x="1.92" y="0.4"/>
+<vertex x="1.97" y="0.42"/>
+<vertex x="2.03" y="0.41"/>
+<vertex x="2.07" y="0.37"/>
+<vertex x="2.2" y="-0.03"/>
+<vertex x="2.22" y="0.02"/>
+<vertex x="2.32" y="0.3"/>
+<vertex x="2.34" y="0.36"/>
+<vertex x="2.36" y="0.41"/>
+<vertex x="2.42" y="0.43"/>
+<vertex x="2.5" y="0.39"/>
+<vertex x="2.54" y="0.35"/>
+<vertex x="2.53" y="0.3"/>
+<vertex x="2.95" y="0.22"/>
+<vertex x="3" y="0.23"/>
+<vertex x="3.06" y="0.23"/>
+<vertex x="3.12" y="0.22"/>
+<vertex x="3.17" y="0.19"/>
+<vertex x="3.32" y="0.31"/>
+<vertex x="3.36" y="0.26"/>
+<vertex x="3.38" y="0.21"/>
+<vertex x="3.39" y="0.15"/>
+<vertex x="3.39" y="0.09"/>
+<vertex x="3.38" y="0.03"/>
+<vertex x="3.35" y="-0.02"/>
+<vertex x="3.32" y="-0.07"/>
+<vertex x="3.31" y="-0.11"/>
+<vertex x="3.36" y="-0.22"/>
+<vertex x="3.38" y="-0.27"/>
+<vertex x="3.4" y="-0.32"/>
+<vertex x="3.38" y="-0.37"/>
+<vertex x="3.31" y="-0.4"/>
+<vertex x="3.26" y="-0.41"/>
+<vertex x="3.21" y="-0.38"/>
+<vertex x="3.15" y="-0.25"/>
+<vertex x="3.11" y="-0.18"/>
+<vertex x="2.99" y="-0.18"/>
+<vertex x="2.95" y="-0.19"/>
+<vertex x="2.95" y="-0.31"/>
+<vertex x="2.94" y="-0.37"/>
+<vertex x="2.9" y="-0.4"/>
+<vertex x="2.83" y="-0.41"/>
+<vertex x="2.77" y="-0.39"/>
+<vertex x="2.75" y="-0.35"/>
+<vertex x="2.74" y="-0.29"/>
+<vertex x="2.74" y="0.36"/>
+<vertex x="2.76" y="0.41"/>
+<vertex x="2.81" y="0.43"/>
+<vertex x="3.06" y="0.43"/>
+<vertex x="3.12" y="0.43"/>
+<vertex x="3.17" y="0.41"/>
+<vertex x="3.23" y="0.39"/>
+<vertex x="3.28" y="0.35"/>
+<vertex x="3.32" y="0.31"/>
+<vertex x="3.17" y="0.19"/>
+<vertex x="3.19" y="0.13"/>
+<vertex x="3.18" y="0.07"/>
+<vertex x="3.14" y="0.04"/>
+<vertex x="3.08" y="0.02"/>
+<vertex x="2.96" y="0.02"/>
+<vertex x="2.95" y="0.04"/>
+<vertex x="2.95" y="0.22"/>
+<vertex x="2.53" y="0.3"/>
+<vertex x="2.51" y="0.24"/>
+<vertex x="2.31" y="-0.32"/>
+<vertex x="2.29" y="-0.37"/>
+<vertex x="2.24" y="-0.41"/>
+<vertex x="2.18" y="-0.41"/>
+<vertex x="2.13" y="-0.38"/>
+<vertex x="2.11" y="-0.33"/>
+<vertex x="1.99" y="0.01"/>
+<vertex x="1.97" y="-0.02"/>
+<vertex x="1.86" y="-0.34"/>
+<vertex x="1.83" y="-0.38"/>
+<vertex x="1.78" y="-0.41"/>
+<vertex x="1.72" y="-0.41"/>
+<vertex x="1.68" y="-0.37"/>
+<vertex x="1.66" y="-0.32"/>
+<vertex x="1.46" y="0.24"/>
+<vertex x="1.29" y="0.17"/>
+<vertex x="1.29" y="0.11"/>
+<vertex x="1.28" y="0.05"/>
+<vertex x="1.26" y="0"/>
+<vertex x="1.23" y="-0.05"/>
+<vertex x="1.2" y="-0.1"/>
+<vertex x="1.15" y="-0.13"/>
+<vertex x="1.09" y="-0.16"/>
+<vertex x="1.02" y="0.02"/>
+<vertex x="0.99" y="0.02"/>
+<vertex x="0.87" y="0.02"/>
+<vertex x="0.84" y="0.05"/>
+<vertex x="0.84" y="0.17"/>
+<vertex x="0.85" y="0.22"/>
+<vertex x="0.59" y="0.59"/>
+</polygon>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Jumpers">
@@ -2517,7 +2699,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="Qwiic_Multi_Port_Board">
+<designrules name="Qwiic_MultiPort">
 <description language="en">&lt;b&gt;2 Layer General Rules for JLCPCB&lt;/b&gt;
 &lt;p&gt;
 These are the free and generally easy to produce 2-layer PCB design rules. You can certainly go smaller but if the design doesn't call for it, these rules provide good guidance.
@@ -2739,21 +2921,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$9" library="output" package="PWR0" value="" x="8.636" y="18.542" smashed="yes"/>
 <element name="U$11" library="output" package="MULTI0" value="" x="15.24" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$13" library="output" package="PORT0" value="" x="14.986" y="2.794" smashed="yes" rot="MR0"/>
-<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="15.24" smashed="yes" rot="MR0"/>
-<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="15.24" smashed="yes"/>
-<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="10.16" smashed="yes"/>
-<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="10.16" smashed="yes" rot="MR0"/>
-<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="16.891" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.668" y="18.034" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="10.668" y="15.748" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="15.24" smashed="yes" rot="MR0"/>
+<element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="15.24" smashed="yes"/>
+<element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="10.16" smashed="yes"/>
+<element name="FD4" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="10.16" smashed="yes" rot="MR0"/>
+<element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="18.923" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.668" y="20.066" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="10.668" y="17.78" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="13.97" smashed="yes"/>
 <element name="LOGO2" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="7.62" smashed="yes" rot="MR0"/>
 <element name="LOGO3" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="22.86" smashed="yes" rot="MR0"/>
 <element name="LOGO4" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="12.7" y="12.7" smashed="yes" rot="MR0"/>
 <element name="U$1" library="output" package="PWR0" value="" x="8.636" y="18.542" smashed="yes"/>
-<element name="U$3" library="output" package="PWR0" value="" x="12.954" y="18.542" smashed="yes" rot="MR0"/>
 <element name="U$4" library="output" package="MULTIPORT0" value="" x="8.509" y="11.43" smashed="yes"/>
+<element name="U$5" library="output" package="#PWR#0" value="" x="15.621" y="18.923" smashed="yes" rot="MR0"/>
 <element name="J5" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.608" y="5.08" smashed="yes">
 <attribute name="NAME" x="37.211" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="58.928" y="0" size="1.778" layer="27" display="off"/>
@@ -2792,25 +2974,25 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <attribute name="PROD_ID" value="RES-07856" x="36.576" y="16.002" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="36.576" y="15.24" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$5" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="38.608" y="8.89" smashed="yes"/>
+<element name="U$3" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="38.608" y="8.89" smashed="yes"/>
 <element name="U$6" library="output" package="PWR0" value="" x="34.544" y="18.542" smashed="yes"/>
 <element name="U$7" library="output" package="MULTI0" value="" x="41.148" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$8" library="output" package="PORT0" value="" x="40.894" y="2.794" smashed="yes" rot="MR0"/>
-<element name="FD5" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="15.24" smashed="yes" rot="MR0"/>
-<element name="FD6" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="15.24" smashed="yes"/>
-<element name="FD7" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="10.16" smashed="yes"/>
-<element name="FD8" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="10.16" smashed="yes" rot="MR0"/>
-<element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="16.891" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.576" y="18.034" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="36.576" y="15.748" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD5" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="15.24" smashed="yes" rot="MR0"/>
+<element name="FD6" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="15.24" smashed="yes"/>
+<element name="FD7" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="10.16" smashed="yes"/>
+<element name="FD8" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="10.16" smashed="yes" rot="MR0"/>
+<element name="JP2" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="18.923" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.576" y="20.066" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="36.576" y="17.78" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO5" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="13.97" smashed="yes"/>
 <element name="LOGO6" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="7.62" smashed="yes" rot="MR0"/>
 <element name="LOGO7" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="22.86" smashed="yes" rot="MR0"/>
 <element name="LOGO8" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="38.608" y="12.7" smashed="yes" rot="MR0"/>
 <element name="U$10" library="output" package="PWR0" value="" x="34.544" y="18.542" smashed="yes"/>
-<element name="U$12" library="output" package="PWR0" value="" x="38.862" y="18.542" smashed="yes" rot="MR0"/>
-<element name="U$14" library="output" package="MULTIPORT0" value="" x="34.417" y="11.43" smashed="yes"/>
+<element name="U$12" library="output" package="MULTIPORT0" value="" x="34.417" y="11.43" smashed="yes"/>
+<element name="U$14" library="output" package="#PWR#0" value="" x="41.529" y="18.923" smashed="yes" rot="MR0"/>
 <element name="J9" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="64.516" y="5.08" smashed="yes">
 <attribute name="NAME" x="63.119" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="84.836" y="0" size="1.778" layer="27" display="off"/>
@@ -2853,21 +3035,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$16" library="output" package="PWR0" value="" x="60.452" y="18.542" smashed="yes"/>
 <element name="U$17" library="output" package="MULTI0" value="" x="67.056" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$18" library="output" package="PORT0" value="" x="66.802" y="2.794" smashed="yes" rot="MR0"/>
-<element name="FD9" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="15.24" smashed="yes" rot="MR0"/>
-<element name="FD10" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="15.24" smashed="yes"/>
-<element name="FD11" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="10.16" smashed="yes"/>
-<element name="FD12" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="10.16" smashed="yes" rot="MR0"/>
-<element name="JP3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="16.891" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.484" y="18.034" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="62.484" y="15.748" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD9" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="15.24" smashed="yes" rot="MR0"/>
+<element name="FD10" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="15.24" smashed="yes"/>
+<element name="FD11" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="10.16" smashed="yes"/>
+<element name="FD12" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="10.16" smashed="yes" rot="MR0"/>
+<element name="JP3" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="18.923" smashed="yes" rot="MR0">
+<attribute name="NAME" x="62.484" y="20.066" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="62.484" y="17.78" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO9" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="13.97" smashed="yes"/>
 <element name="LOGO10" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="7.62" smashed="yes" rot="MR0"/>
 <element name="LOGO11" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="22.86" smashed="yes" rot="MR0"/>
 <element name="LOGO12" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="64.516" y="12.7" smashed="yes" rot="MR0"/>
 <element name="U$19" library="output" package="PWR0" value="" x="60.452" y="18.542" smashed="yes"/>
-<element name="U$20" library="output" package="PWR0" value="" x="64.77" y="18.542" smashed="yes" rot="MR0"/>
-<element name="U$21" library="output" package="MULTIPORT0" value="" x="60.325" y="11.43" smashed="yes"/>
+<element name="U$20" library="output" package="MULTIPORT0" value="" x="60.325" y="11.43" smashed="yes"/>
+<element name="U$21" library="output" package="#PWR#0" value="" x="67.437" y="18.923" smashed="yes" rot="MR0"/>
 <element name="J13" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="90.424" y="5.08" smashed="yes">
 <attribute name="NAME" x="89.027" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="110.744" y="0" size="1.778" layer="27" display="off"/>
@@ -2910,21 +3092,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$23" library="output" package="PWR0" value="" x="86.36" y="18.542" smashed="yes"/>
 <element name="U$24" library="output" package="MULTI0" value="" x="92.964" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$25" library="output" package="PORT0" value="" x="92.71" y="2.794" smashed="yes" rot="MR0"/>
-<element name="FD13" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="15.24" smashed="yes" rot="MR0"/>
-<element name="FD14" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="15.24" smashed="yes"/>
-<element name="FD15" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="10.16" smashed="yes"/>
-<element name="FD16" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="10.16" smashed="yes" rot="MR0"/>
-<element name="JP4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="16.891" smashed="yes" rot="MR0">
-<attribute name="NAME" x="88.392" y="18.034" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="88.392" y="15.748" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD13" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="15.24" smashed="yes" rot="MR0"/>
+<element name="FD14" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="15.24" smashed="yes"/>
+<element name="FD15" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="10.16" smashed="yes"/>
+<element name="FD16" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="10.16" smashed="yes" rot="MR0"/>
+<element name="JP4" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="18.923" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.392" y="20.066" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="88.392" y="17.78" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO13" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="13.97" smashed="yes"/>
 <element name="LOGO14" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="7.62" smashed="yes" rot="MR0"/>
 <element name="LOGO15" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="22.86" smashed="yes" rot="MR0"/>
 <element name="LOGO16" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="90.424" y="12.7" smashed="yes" rot="MR0"/>
 <element name="U$26" library="output" package="PWR0" value="" x="86.36" y="18.542" smashed="yes"/>
-<element name="U$27" library="output" package="PWR0" value="" x="90.678" y="18.542" smashed="yes" rot="MR0"/>
-<element name="U$28" library="output" package="MULTIPORT0" value="" x="86.233" y="11.43" smashed="yes"/>
+<element name="U$27" library="output" package="MULTIPORT0" value="" x="86.233" y="11.43" smashed="yes"/>
+<element name="U$28" library="output" package="#PWR#0" value="" x="93.345" y="18.923" smashed="yes" rot="MR0"/>
 <element name="J17" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="116.332" y="5.08" smashed="yes">
 <attribute name="NAME" x="114.935" y="2.921" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="136.652" y="0" size="1.778" layer="27" display="off"/>
@@ -2967,21 +3149,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$30" library="output" package="PWR0" value="" x="112.268" y="18.542" smashed="yes"/>
 <element name="U$31" library="output" package="MULTI0" value="" x="118.872" y="4.191" smashed="yes" rot="MR0"/>
 <element name="U$32" library="output" package="PORT0" value="" x="118.618" y="2.794" smashed="yes" rot="MR0"/>
-<element name="FD17" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="15.24" smashed="yes" rot="MR0"/>
-<element name="FD18" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="15.24" smashed="yes"/>
-<element name="FD19" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="10.16" smashed="yes"/>
-<element name="FD20" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="10.16" smashed="yes" rot="MR0"/>
-<element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="16.891" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114.3" y="18.034" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="114.3" y="15.748" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD17" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="15.24" smashed="yes" rot="MR0"/>
+<element name="FD18" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="15.24" smashed="yes"/>
+<element name="FD19" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="10.16" smashed="yes"/>
+<element name="FD20" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="10.16" smashed="yes" rot="MR0"/>
+<element name="JP5" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="18.923" smashed="yes" rot="MR0">
+<attribute name="NAME" x="114.3" y="20.066" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="114.3" y="17.78" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO17" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="13.97" smashed="yes"/>
 <element name="LOGO18" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="7.62" smashed="yes" rot="MR0"/>
 <element name="LOGO19" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="22.86" smashed="yes" rot="MR0"/>
 <element name="LOGO20" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="116.332" y="12.7" smashed="yes" rot="MR0"/>
 <element name="U$33" library="output" package="PWR0" value="" x="112.268" y="18.542" smashed="yes"/>
-<element name="U$34" library="output" package="PWR0" value="" x="116.586" y="18.542" smashed="yes" rot="MR0"/>
-<element name="U$35" library="output" package="MULTIPORT0" value="" x="112.141" y="11.43" smashed="yes"/>
+<element name="U$34" library="output" package="MULTIPORT0" value="" x="112.141" y="11.43" smashed="yes"/>
+<element name="U$35" library="output" package="#PWR#0" value="" x="119.253" y="18.923" smashed="yes" rot="MR0"/>
 <element name="J21" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="12.7" y="30.988" smashed="yes">
 <attribute name="NAME" x="11.303" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="33.02" y="25.908" size="1.778" layer="27" display="off"/>
@@ -3024,21 +3206,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$37" library="output" package="PWR0" value="" x="8.636" y="44.45" smashed="yes"/>
 <element name="U$38" library="output" package="MULTI0" value="" x="15.24" y="30.099" smashed="yes" rot="MR0"/>
 <element name="U$39" library="output" package="PORT0" value="" x="14.986" y="28.702" smashed="yes" rot="MR0"/>
-<element name="FD21" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="41.148" smashed="yes" rot="MR0"/>
-<element name="FD22" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="41.148" smashed="yes"/>
-<element name="FD23" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="36.068" smashed="yes"/>
-<element name="FD24" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="36.068" smashed="yes" rot="MR0"/>
-<element name="JP6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="42.799" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.668" y="43.942" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="10.668" y="41.656" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD21" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="41.148" smashed="yes" rot="MR0"/>
+<element name="FD22" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="41.148" smashed="yes"/>
+<element name="FD23" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="36.068" smashed="yes"/>
+<element name="FD24" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="36.068" smashed="yes" rot="MR0"/>
+<element name="JP6" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="44.831" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.668" y="45.974" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="10.668" y="43.688" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO21" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="39.878" smashed="yes"/>
 <element name="LOGO22" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="33.528" smashed="yes" rot="MR0"/>
 <element name="LOGO23" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="48.768" smashed="yes" rot="MR0"/>
 <element name="LOGO24" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="12.7" y="38.608" smashed="yes" rot="MR0"/>
 <element name="U$40" library="output" package="PWR0" value="" x="8.636" y="44.45" smashed="yes"/>
-<element name="U$41" library="output" package="PWR0" value="" x="12.954" y="44.45" smashed="yes" rot="MR0"/>
-<element name="U$42" library="output" package="MULTIPORT0" value="" x="8.509" y="37.338" smashed="yes"/>
+<element name="U$41" library="output" package="MULTIPORT0" value="" x="8.509" y="37.338" smashed="yes"/>
+<element name="U$42" library="output" package="#PWR#0" value="" x="15.621" y="44.831" smashed="yes" rot="MR0"/>
 <element name="J25" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.608" y="30.988" smashed="yes">
 <attribute name="NAME" x="37.211" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="58.928" y="25.908" size="1.778" layer="27" display="off"/>
@@ -3081,21 +3263,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$44" library="output" package="PWR0" value="" x="34.544" y="44.45" smashed="yes"/>
 <element name="U$45" library="output" package="MULTI0" value="" x="41.148" y="30.099" smashed="yes" rot="MR0"/>
 <element name="U$46" library="output" package="PORT0" value="" x="40.894" y="28.702" smashed="yes" rot="MR0"/>
-<element name="FD25" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="41.148" smashed="yes" rot="MR0"/>
-<element name="FD26" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="41.148" smashed="yes"/>
-<element name="FD27" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="36.068" smashed="yes"/>
-<element name="FD28" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="36.068" smashed="yes" rot="MR0"/>
-<element name="JP7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="42.799" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.576" y="43.942" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="36.576" y="41.656" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD25" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="41.148" smashed="yes" rot="MR0"/>
+<element name="FD26" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="41.148" smashed="yes"/>
+<element name="FD27" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="36.068" smashed="yes"/>
+<element name="FD28" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="36.068" smashed="yes" rot="MR0"/>
+<element name="JP7" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="44.831" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.576" y="45.974" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="36.576" y="43.688" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO25" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="39.878" smashed="yes"/>
 <element name="LOGO26" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="33.528" smashed="yes" rot="MR0"/>
 <element name="LOGO27" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="48.768" smashed="yes" rot="MR0"/>
 <element name="LOGO28" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="38.608" y="38.608" smashed="yes" rot="MR0"/>
 <element name="U$47" library="output" package="PWR0" value="" x="34.544" y="44.45" smashed="yes"/>
-<element name="U$48" library="output" package="PWR0" value="" x="38.862" y="44.45" smashed="yes" rot="MR0"/>
-<element name="U$49" library="output" package="MULTIPORT0" value="" x="34.417" y="37.338" smashed="yes"/>
+<element name="U$48" library="output" package="MULTIPORT0" value="" x="34.417" y="37.338" smashed="yes"/>
+<element name="U$49" library="output" package="#PWR#0" value="" x="41.529" y="44.831" smashed="yes" rot="MR0"/>
 <element name="J29" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="64.516" y="30.988" smashed="yes">
 <attribute name="NAME" x="63.119" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="84.836" y="25.908" size="1.778" layer="27" display="off"/>
@@ -3138,21 +3320,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$51" library="output" package="PWR0" value="" x="60.452" y="44.45" smashed="yes"/>
 <element name="U$52" library="output" package="MULTI0" value="" x="67.056" y="30.099" smashed="yes" rot="MR0"/>
 <element name="U$53" library="output" package="PORT0" value="" x="66.802" y="28.702" smashed="yes" rot="MR0"/>
-<element name="FD29" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="41.148" smashed="yes" rot="MR0"/>
-<element name="FD30" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="41.148" smashed="yes"/>
-<element name="FD31" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="36.068" smashed="yes"/>
-<element name="FD32" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="36.068" smashed="yes" rot="MR0"/>
-<element name="JP8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="42.799" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.484" y="43.942" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="62.484" y="41.656" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD29" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="41.148" smashed="yes" rot="MR0"/>
+<element name="FD30" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="41.148" smashed="yes"/>
+<element name="FD31" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="36.068" smashed="yes"/>
+<element name="FD32" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="36.068" smashed="yes" rot="MR0"/>
+<element name="JP8" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="44.831" smashed="yes" rot="MR0">
+<attribute name="NAME" x="62.484" y="45.974" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="62.484" y="43.688" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO29" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="39.878" smashed="yes"/>
 <element name="LOGO30" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="33.528" smashed="yes" rot="MR0"/>
 <element name="LOGO31" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="48.768" smashed="yes" rot="MR0"/>
 <element name="LOGO32" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="64.516" y="38.608" smashed="yes" rot="MR0"/>
 <element name="U$54" library="output" package="PWR0" value="" x="60.452" y="44.45" smashed="yes"/>
-<element name="U$55" library="output" package="PWR0" value="" x="64.77" y="44.45" smashed="yes" rot="MR0"/>
-<element name="U$56" library="output" package="MULTIPORT0" value="" x="60.325" y="37.338" smashed="yes"/>
+<element name="U$55" library="output" package="MULTIPORT0" value="" x="60.325" y="37.338" smashed="yes"/>
+<element name="U$56" library="output" package="#PWR#0" value="" x="67.437" y="44.831" smashed="yes" rot="MR0"/>
 <element name="J33" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="90.424" y="30.988" smashed="yes">
 <attribute name="NAME" x="89.027" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="110.744" y="25.908" size="1.778" layer="27" display="off"/>
@@ -3195,21 +3377,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$58" library="output" package="PWR0" value="" x="86.36" y="44.45" smashed="yes"/>
 <element name="U$59" library="output" package="MULTI0" value="" x="92.964" y="30.099" smashed="yes" rot="MR0"/>
 <element name="U$60" library="output" package="PORT0" value="" x="92.71" y="28.702" smashed="yes" rot="MR0"/>
-<element name="FD33" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="41.148" smashed="yes" rot="MR0"/>
-<element name="FD34" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="41.148" smashed="yes"/>
-<element name="FD35" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="36.068" smashed="yes"/>
-<element name="FD36" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="36.068" smashed="yes" rot="MR0"/>
-<element name="JP9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="42.799" smashed="yes" rot="MR0">
-<attribute name="NAME" x="88.392" y="43.942" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="88.392" y="41.656" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD33" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="41.148" smashed="yes" rot="MR0"/>
+<element name="FD34" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="41.148" smashed="yes"/>
+<element name="FD35" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="36.068" smashed="yes"/>
+<element name="FD36" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="36.068" smashed="yes" rot="MR0"/>
+<element name="JP9" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="44.831" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.392" y="45.974" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="88.392" y="43.688" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO33" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="39.878" smashed="yes"/>
 <element name="LOGO34" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="33.528" smashed="yes" rot="MR0"/>
 <element name="LOGO35" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="48.768" smashed="yes" rot="MR0"/>
 <element name="LOGO36" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="90.424" y="38.608" smashed="yes" rot="MR0"/>
 <element name="U$61" library="output" package="PWR0" value="" x="86.36" y="44.45" smashed="yes"/>
-<element name="U$62" library="output" package="PWR0" value="" x="90.678" y="44.45" smashed="yes" rot="MR0"/>
-<element name="U$63" library="output" package="MULTIPORT0" value="" x="86.233" y="37.338" smashed="yes"/>
+<element name="U$62" library="output" package="MULTIPORT0" value="" x="86.233" y="37.338" smashed="yes"/>
+<element name="U$63" library="output" package="#PWR#0" value="" x="93.345" y="44.831" smashed="yes" rot="MR0"/>
 <element name="J37" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="116.332" y="30.988" smashed="yes">
 <attribute name="NAME" x="114.935" y="28.829" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="136.652" y="25.908" size="1.778" layer="27" display="off"/>
@@ -3252,21 +3434,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$65" library="output" package="PWR0" value="" x="112.268" y="44.45" smashed="yes"/>
 <element name="U$66" library="output" package="MULTI0" value="" x="118.872" y="30.099" smashed="yes" rot="MR0"/>
 <element name="U$67" library="output" package="PORT0" value="" x="118.618" y="28.702" smashed="yes" rot="MR0"/>
-<element name="FD37" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="41.148" smashed="yes" rot="MR0"/>
-<element name="FD38" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="41.148" smashed="yes"/>
-<element name="FD39" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="36.068" smashed="yes"/>
-<element name="FD40" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="36.068" smashed="yes" rot="MR0"/>
-<element name="JP10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="42.799" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114.3" y="43.942" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="114.3" y="41.656" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD37" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="41.148" smashed="yes" rot="MR0"/>
+<element name="FD38" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="41.148" smashed="yes"/>
+<element name="FD39" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="36.068" smashed="yes"/>
+<element name="FD40" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="36.068" smashed="yes" rot="MR0"/>
+<element name="JP10" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="44.831" smashed="yes" rot="MR0">
+<attribute name="NAME" x="114.3" y="45.974" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="114.3" y="43.688" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO37" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="39.878" smashed="yes"/>
 <element name="LOGO38" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="33.528" smashed="yes" rot="MR0"/>
 <element name="LOGO39" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="48.768" smashed="yes" rot="MR0"/>
 <element name="LOGO40" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="116.332" y="38.608" smashed="yes" rot="MR0"/>
 <element name="U$68" library="output" package="PWR0" value="" x="112.268" y="44.45" smashed="yes"/>
-<element name="U$69" library="output" package="PWR0" value="" x="116.586" y="44.45" smashed="yes" rot="MR0"/>
-<element name="U$70" library="output" package="MULTIPORT0" value="" x="112.141" y="37.338" smashed="yes"/>
+<element name="U$69" library="output" package="MULTIPORT0" value="" x="112.141" y="37.338" smashed="yes"/>
+<element name="U$70" library="output" package="#PWR#0" value="" x="119.253" y="44.831" smashed="yes" rot="MR0"/>
 <element name="J41" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="12.7" y="56.896" smashed="yes">
 <attribute name="NAME" x="11.303" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="33.02" y="51.816" size="1.778" layer="27" display="off"/>
@@ -3309,21 +3491,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$72" library="output" package="PWR0" value="" x="8.636" y="70.358" smashed="yes"/>
 <element name="U$73" library="output" package="MULTI0" value="" x="15.24" y="56.007" smashed="yes" rot="MR0"/>
 <element name="U$74" library="output" package="PORT0" value="" x="14.986" y="54.61" smashed="yes" rot="MR0"/>
-<element name="FD41" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="67.056" smashed="yes" rot="MR0"/>
-<element name="FD42" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="67.056" smashed="yes"/>
-<element name="FD43" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="61.976" smashed="yes"/>
-<element name="FD44" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="61.976" smashed="yes" rot="MR0"/>
-<element name="JP11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="68.707" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.668" y="69.85" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="10.668" y="67.564" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD41" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="67.056" smashed="yes" rot="MR0"/>
+<element name="FD42" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="67.056" smashed="yes"/>
+<element name="FD43" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="61.976" smashed="yes"/>
+<element name="FD44" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="61.976" smashed="yes" rot="MR0"/>
+<element name="JP11" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="70.739" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.668" y="71.882" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="10.668" y="69.596" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO41" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="65.786" smashed="yes"/>
 <element name="LOGO42" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="59.436" smashed="yes" rot="MR0"/>
 <element name="LOGO43" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="74.676" smashed="yes" rot="MR0"/>
 <element name="LOGO44" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="12.7" y="64.516" smashed="yes" rot="MR0"/>
 <element name="U$75" library="output" package="PWR0" value="" x="8.636" y="70.358" smashed="yes"/>
-<element name="U$76" library="output" package="PWR0" value="" x="12.954" y="70.358" smashed="yes" rot="MR0"/>
-<element name="U$77" library="output" package="MULTIPORT0" value="" x="8.509" y="63.246" smashed="yes"/>
+<element name="U$76" library="output" package="MULTIPORT0" value="" x="8.509" y="63.246" smashed="yes"/>
+<element name="U$77" library="output" package="#PWR#0" value="" x="15.621" y="70.739" smashed="yes" rot="MR0"/>
 <element name="J45" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.608" y="56.896" smashed="yes">
 <attribute name="NAME" x="37.211" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="58.928" y="51.816" size="1.778" layer="27" display="off"/>
@@ -3366,21 +3548,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$79" library="output" package="PWR0" value="" x="34.544" y="70.358" smashed="yes"/>
 <element name="U$80" library="output" package="MULTI0" value="" x="41.148" y="56.007" smashed="yes" rot="MR0"/>
 <element name="U$81" library="output" package="PORT0" value="" x="40.894" y="54.61" smashed="yes" rot="MR0"/>
-<element name="FD45" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="67.056" smashed="yes" rot="MR0"/>
-<element name="FD46" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="67.056" smashed="yes"/>
-<element name="FD47" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="61.976" smashed="yes"/>
-<element name="FD48" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="61.976" smashed="yes" rot="MR0"/>
-<element name="JP12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="68.707" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.576" y="69.85" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="36.576" y="67.564" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD45" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="67.056" smashed="yes" rot="MR0"/>
+<element name="FD46" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="67.056" smashed="yes"/>
+<element name="FD47" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="61.976" smashed="yes"/>
+<element name="FD48" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="61.976" smashed="yes" rot="MR0"/>
+<element name="JP12" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="70.739" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.576" y="71.882" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="36.576" y="69.596" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO45" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="65.786" smashed="yes"/>
 <element name="LOGO46" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="59.436" smashed="yes" rot="MR0"/>
 <element name="LOGO47" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="74.676" smashed="yes" rot="MR0"/>
 <element name="LOGO48" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="38.608" y="64.516" smashed="yes" rot="MR0"/>
 <element name="U$82" library="output" package="PWR0" value="" x="34.544" y="70.358" smashed="yes"/>
-<element name="U$83" library="output" package="PWR0" value="" x="38.862" y="70.358" smashed="yes" rot="MR0"/>
-<element name="U$84" library="output" package="MULTIPORT0" value="" x="34.417" y="63.246" smashed="yes"/>
+<element name="U$83" library="output" package="MULTIPORT0" value="" x="34.417" y="63.246" smashed="yes"/>
+<element name="U$84" library="output" package="#PWR#0" value="" x="41.529" y="70.739" smashed="yes" rot="MR0"/>
 <element name="J49" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="64.516" y="56.896" smashed="yes">
 <attribute name="NAME" x="63.119" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="84.836" y="51.816" size="1.778" layer="27" display="off"/>
@@ -3423,21 +3605,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$86" library="output" package="PWR0" value="" x="60.452" y="70.358" smashed="yes"/>
 <element name="U$87" library="output" package="MULTI0" value="" x="67.056" y="56.007" smashed="yes" rot="MR0"/>
 <element name="U$88" library="output" package="PORT0" value="" x="66.802" y="54.61" smashed="yes" rot="MR0"/>
-<element name="FD49" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="67.056" smashed="yes" rot="MR0"/>
-<element name="FD50" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="67.056" smashed="yes"/>
-<element name="FD51" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="61.976" smashed="yes"/>
-<element name="FD52" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="61.976" smashed="yes" rot="MR0"/>
-<element name="JP13" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="68.707" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.484" y="69.85" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="62.484" y="67.564" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD49" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="67.056" smashed="yes" rot="MR0"/>
+<element name="FD50" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="67.056" smashed="yes"/>
+<element name="FD51" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="61.976" smashed="yes"/>
+<element name="FD52" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="61.976" smashed="yes" rot="MR0"/>
+<element name="JP13" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="70.739" smashed="yes" rot="MR0">
+<attribute name="NAME" x="62.484" y="71.882" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="62.484" y="69.596" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO49" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="65.786" smashed="yes"/>
 <element name="LOGO50" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="59.436" smashed="yes" rot="MR0"/>
 <element name="LOGO51" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="74.676" smashed="yes" rot="MR0"/>
 <element name="LOGO52" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="64.516" y="64.516" smashed="yes" rot="MR0"/>
 <element name="U$89" library="output" package="PWR0" value="" x="60.452" y="70.358" smashed="yes"/>
-<element name="U$90" library="output" package="PWR0" value="" x="64.77" y="70.358" smashed="yes" rot="MR0"/>
-<element name="U$91" library="output" package="MULTIPORT0" value="" x="60.325" y="63.246" smashed="yes"/>
+<element name="U$90" library="output" package="MULTIPORT0" value="" x="60.325" y="63.246" smashed="yes"/>
+<element name="U$91" library="output" package="#PWR#0" value="" x="67.437" y="70.739" smashed="yes" rot="MR0"/>
 <element name="J53" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="90.424" y="56.896" smashed="yes">
 <attribute name="NAME" x="89.027" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="110.744" y="51.816" size="1.778" layer="27" display="off"/>
@@ -3480,21 +3662,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$93" library="output" package="PWR0" value="" x="86.36" y="70.358" smashed="yes"/>
 <element name="U$94" library="output" package="MULTI0" value="" x="92.964" y="56.007" smashed="yes" rot="MR0"/>
 <element name="U$95" library="output" package="PORT0" value="" x="92.71" y="54.61" smashed="yes" rot="MR0"/>
-<element name="FD53" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="67.056" smashed="yes" rot="MR0"/>
-<element name="FD54" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="67.056" smashed="yes"/>
-<element name="FD55" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="61.976" smashed="yes"/>
-<element name="FD56" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="61.976" smashed="yes" rot="MR0"/>
-<element name="JP14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="68.707" smashed="yes" rot="MR0">
-<attribute name="NAME" x="88.392" y="69.85" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="88.392" y="67.564" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD53" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="67.056" smashed="yes" rot="MR0"/>
+<element name="FD54" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="67.056" smashed="yes"/>
+<element name="FD55" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="61.976" smashed="yes"/>
+<element name="FD56" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="61.976" smashed="yes" rot="MR0"/>
+<element name="JP14" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="70.739" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.392" y="71.882" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="88.392" y="69.596" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO53" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="65.786" smashed="yes"/>
 <element name="LOGO54" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="59.436" smashed="yes" rot="MR0"/>
 <element name="LOGO55" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="74.676" smashed="yes" rot="MR0"/>
 <element name="LOGO56" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="90.424" y="64.516" smashed="yes" rot="MR0"/>
 <element name="U$96" library="output" package="PWR0" value="" x="86.36" y="70.358" smashed="yes"/>
-<element name="U$97" library="output" package="PWR0" value="" x="90.678" y="70.358" smashed="yes" rot="MR0"/>
-<element name="U$98" library="output" package="MULTIPORT0" value="" x="86.233" y="63.246" smashed="yes"/>
+<element name="U$97" library="output" package="MULTIPORT0" value="" x="86.233" y="63.246" smashed="yes"/>
+<element name="U$98" library="output" package="#PWR#0" value="" x="93.345" y="70.739" smashed="yes" rot="MR0"/>
 <element name="J57" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="116.332" y="56.896" smashed="yes">
 <attribute name="NAME" x="114.935" y="54.737" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="136.652" y="51.816" size="1.778" layer="27" display="off"/>
@@ -3537,21 +3719,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$100" library="output" package="PWR0" value="" x="112.268" y="70.358" smashed="yes"/>
 <element name="U$101" library="output" package="MULTI0" value="" x="118.872" y="56.007" smashed="yes" rot="MR0"/>
 <element name="U$102" library="output" package="PORT0" value="" x="118.618" y="54.61" smashed="yes" rot="MR0"/>
-<element name="FD57" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="67.056" smashed="yes" rot="MR0"/>
-<element name="FD58" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="67.056" smashed="yes"/>
-<element name="FD59" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="61.976" smashed="yes"/>
-<element name="FD60" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="61.976" smashed="yes" rot="MR0"/>
-<element name="JP15" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="68.707" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114.3" y="69.85" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="114.3" y="67.564" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD57" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="67.056" smashed="yes" rot="MR0"/>
+<element name="FD58" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="67.056" smashed="yes"/>
+<element name="FD59" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="61.976" smashed="yes"/>
+<element name="FD60" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="61.976" smashed="yes" rot="MR0"/>
+<element name="JP15" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="70.739" smashed="yes" rot="MR0">
+<attribute name="NAME" x="114.3" y="71.882" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="114.3" y="69.596" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO57" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="65.786" smashed="yes"/>
 <element name="LOGO58" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="59.436" smashed="yes" rot="MR0"/>
 <element name="LOGO59" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="74.676" smashed="yes" rot="MR0"/>
 <element name="LOGO60" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="116.332" y="64.516" smashed="yes" rot="MR0"/>
 <element name="U$103" library="output" package="PWR0" value="" x="112.268" y="70.358" smashed="yes"/>
-<element name="U$104" library="output" package="PWR0" value="" x="116.586" y="70.358" smashed="yes" rot="MR0"/>
-<element name="U$105" library="output" package="MULTIPORT0" value="" x="112.141" y="63.246" smashed="yes"/>
+<element name="U$104" library="output" package="MULTIPORT0" value="" x="112.141" y="63.246" smashed="yes"/>
+<element name="U$105" library="output" package="#PWR#0" value="" x="119.253" y="70.739" smashed="yes" rot="MR0"/>
 <element name="J61" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="12.7" y="82.804" smashed="yes">
 <attribute name="NAME" x="11.303" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="33.02" y="77.724" size="1.778" layer="27" display="off"/>
@@ -3594,21 +3776,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$107" library="output" package="PWR0" value="" x="8.636" y="96.266" smashed="yes"/>
 <element name="U$108" library="output" package="MULTI0" value="" x="15.24" y="81.915" smashed="yes" rot="MR0"/>
 <element name="U$109" library="output" package="PORT0" value="" x="14.986" y="80.518" smashed="yes" rot="MR0"/>
-<element name="FD61" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="92.964" smashed="yes" rot="MR0"/>
-<element name="FD62" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="92.964" smashed="yes"/>
-<element name="FD63" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="87.884" smashed="yes"/>
-<element name="FD64" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="87.884" smashed="yes" rot="MR0"/>
-<element name="JP16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="94.615" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.668" y="95.758" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="10.668" y="93.472" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD61" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="92.964" smashed="yes" rot="MR0"/>
+<element name="FD62" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="92.964" smashed="yes"/>
+<element name="FD63" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="87.884" smashed="yes"/>
+<element name="FD64" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="87.884" smashed="yes" rot="MR0"/>
+<element name="JP16" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="96.647" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.668" y="97.79" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="10.668" y="95.504" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO61" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="91.694" smashed="yes"/>
 <element name="LOGO62" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="85.344" smashed="yes" rot="MR0"/>
 <element name="LOGO63" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="100.584" smashed="yes" rot="MR0"/>
 <element name="LOGO64" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="12.7" y="90.424" smashed="yes" rot="MR0"/>
 <element name="U$110" library="output" package="PWR0" value="" x="8.636" y="96.266" smashed="yes"/>
-<element name="U$111" library="output" package="PWR0" value="" x="12.954" y="96.266" smashed="yes" rot="MR0"/>
-<element name="U$112" library="output" package="MULTIPORT0" value="" x="8.509" y="89.154" smashed="yes"/>
+<element name="U$111" library="output" package="MULTIPORT0" value="" x="8.509" y="89.154" smashed="yes"/>
+<element name="U$112" library="output" package="#PWR#0" value="" x="15.621" y="96.647" smashed="yes" rot="MR0"/>
 <element name="J65" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.608" y="82.804" smashed="yes">
 <attribute name="NAME" x="37.211" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="58.928" y="77.724" size="1.778" layer="27" display="off"/>
@@ -3651,21 +3833,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$114" library="output" package="PWR0" value="" x="34.544" y="96.266" smashed="yes"/>
 <element name="U$115" library="output" package="MULTI0" value="" x="41.148" y="81.915" smashed="yes" rot="MR0"/>
 <element name="U$116" library="output" package="PORT0" value="" x="40.894" y="80.518" smashed="yes" rot="MR0"/>
-<element name="FD65" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="92.964" smashed="yes" rot="MR0"/>
-<element name="FD66" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="92.964" smashed="yes"/>
-<element name="FD67" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="87.884" smashed="yes"/>
-<element name="FD68" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="87.884" smashed="yes" rot="MR0"/>
-<element name="JP17" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="94.615" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.576" y="95.758" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="36.576" y="93.472" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD65" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="92.964" smashed="yes" rot="MR0"/>
+<element name="FD66" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="92.964" smashed="yes"/>
+<element name="FD67" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="87.884" smashed="yes"/>
+<element name="FD68" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="87.884" smashed="yes" rot="MR0"/>
+<element name="JP17" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="96.647" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.576" y="97.79" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="36.576" y="95.504" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO65" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="91.694" smashed="yes"/>
 <element name="LOGO66" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="85.344" smashed="yes" rot="MR0"/>
 <element name="LOGO67" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="100.584" smashed="yes" rot="MR0"/>
 <element name="LOGO68" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="38.608" y="90.424" smashed="yes" rot="MR0"/>
 <element name="U$117" library="output" package="PWR0" value="" x="34.544" y="96.266" smashed="yes"/>
-<element name="U$118" library="output" package="PWR0" value="" x="38.862" y="96.266" smashed="yes" rot="MR0"/>
-<element name="U$119" library="output" package="MULTIPORT0" value="" x="34.417" y="89.154" smashed="yes"/>
+<element name="U$118" library="output" package="MULTIPORT0" value="" x="34.417" y="89.154" smashed="yes"/>
+<element name="U$119" library="output" package="#PWR#0" value="" x="41.529" y="96.647" smashed="yes" rot="MR0"/>
 <element name="J69" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="64.516" y="82.804" smashed="yes">
 <attribute name="NAME" x="63.119" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="84.836" y="77.724" size="1.778" layer="27" display="off"/>
@@ -3708,21 +3890,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$121" library="output" package="PWR0" value="" x="60.452" y="96.266" smashed="yes"/>
 <element name="U$122" library="output" package="MULTI0" value="" x="67.056" y="81.915" smashed="yes" rot="MR0"/>
 <element name="U$123" library="output" package="PORT0" value="" x="66.802" y="80.518" smashed="yes" rot="MR0"/>
-<element name="FD69" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="92.964" smashed="yes" rot="MR0"/>
-<element name="FD70" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="92.964" smashed="yes"/>
-<element name="FD71" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="87.884" smashed="yes"/>
-<element name="FD72" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="87.884" smashed="yes" rot="MR0"/>
-<element name="JP18" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="94.615" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.484" y="95.758" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="62.484" y="93.472" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD69" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="92.964" smashed="yes" rot="MR0"/>
+<element name="FD70" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="92.964" smashed="yes"/>
+<element name="FD71" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="87.884" smashed="yes"/>
+<element name="FD72" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="87.884" smashed="yes" rot="MR0"/>
+<element name="JP18" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="96.647" smashed="yes" rot="MR0">
+<attribute name="NAME" x="62.484" y="97.79" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="62.484" y="95.504" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO69" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="91.694" smashed="yes"/>
 <element name="LOGO70" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="85.344" smashed="yes" rot="MR0"/>
 <element name="LOGO71" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="100.584" smashed="yes" rot="MR0"/>
 <element name="LOGO72" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="64.516" y="90.424" smashed="yes" rot="MR0"/>
 <element name="U$124" library="output" package="PWR0" value="" x="60.452" y="96.266" smashed="yes"/>
-<element name="U$125" library="output" package="PWR0" value="" x="64.77" y="96.266" smashed="yes" rot="MR0"/>
-<element name="U$126" library="output" package="MULTIPORT0" value="" x="60.325" y="89.154" smashed="yes"/>
+<element name="U$125" library="output" package="MULTIPORT0" value="" x="60.325" y="89.154" smashed="yes"/>
+<element name="U$126" library="output" package="#PWR#0" value="" x="67.437" y="96.647" smashed="yes" rot="MR0"/>
 <element name="J73" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="90.424" y="82.804" smashed="yes">
 <attribute name="NAME" x="89.027" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="110.744" y="77.724" size="1.778" layer="27" display="off"/>
@@ -3765,21 +3947,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$128" library="output" package="PWR0" value="" x="86.36" y="96.266" smashed="yes"/>
 <element name="U$129" library="output" package="MULTI0" value="" x="92.964" y="81.915" smashed="yes" rot="MR0"/>
 <element name="U$130" library="output" package="PORT0" value="" x="92.71" y="80.518" smashed="yes" rot="MR0"/>
-<element name="FD73" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="92.964" smashed="yes" rot="MR0"/>
-<element name="FD74" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="92.964" smashed="yes"/>
-<element name="FD75" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="87.884" smashed="yes"/>
-<element name="FD76" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="87.884" smashed="yes" rot="MR0"/>
-<element name="JP19" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="94.615" smashed="yes" rot="MR0">
-<attribute name="NAME" x="88.392" y="95.758" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="88.392" y="93.472" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD73" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="92.964" smashed="yes" rot="MR0"/>
+<element name="FD74" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="92.964" smashed="yes"/>
+<element name="FD75" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="87.884" smashed="yes"/>
+<element name="FD76" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="87.884" smashed="yes" rot="MR0"/>
+<element name="JP19" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="96.647" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.392" y="97.79" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="88.392" y="95.504" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO73" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="91.694" smashed="yes"/>
 <element name="LOGO74" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="85.344" smashed="yes" rot="MR0"/>
 <element name="LOGO75" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="100.584" smashed="yes" rot="MR0"/>
 <element name="LOGO76" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="90.424" y="90.424" smashed="yes" rot="MR0"/>
 <element name="U$131" library="output" package="PWR0" value="" x="86.36" y="96.266" smashed="yes"/>
-<element name="U$132" library="output" package="PWR0" value="" x="90.678" y="96.266" smashed="yes" rot="MR0"/>
-<element name="U$133" library="output" package="MULTIPORT0" value="" x="86.233" y="89.154" smashed="yes"/>
+<element name="U$132" library="output" package="MULTIPORT0" value="" x="86.233" y="89.154" smashed="yes"/>
+<element name="U$133" library="output" package="#PWR#0" value="" x="93.345" y="96.647" smashed="yes" rot="MR0"/>
 <element name="J77" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="116.332" y="82.804" smashed="yes">
 <attribute name="NAME" x="114.935" y="80.645" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="136.652" y="77.724" size="1.778" layer="27" display="off"/>
@@ -3822,21 +4004,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$135" library="output" package="PWR0" value="" x="112.268" y="96.266" smashed="yes"/>
 <element name="U$136" library="output" package="MULTI0" value="" x="118.872" y="81.915" smashed="yes" rot="MR0"/>
 <element name="U$137" library="output" package="PORT0" value="" x="118.618" y="80.518" smashed="yes" rot="MR0"/>
-<element name="FD77" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="92.964" smashed="yes" rot="MR0"/>
-<element name="FD78" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="92.964" smashed="yes"/>
-<element name="FD79" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="87.884" smashed="yes"/>
-<element name="FD80" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="87.884" smashed="yes" rot="MR0"/>
-<element name="JP20" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="94.615" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114.3" y="95.758" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="114.3" y="93.472" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD77" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="92.964" smashed="yes" rot="MR0"/>
+<element name="FD78" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="92.964" smashed="yes"/>
+<element name="FD79" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="87.884" smashed="yes"/>
+<element name="FD80" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="87.884" smashed="yes" rot="MR0"/>
+<element name="JP20" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="96.647" smashed="yes" rot="MR0">
+<attribute name="NAME" x="114.3" y="97.79" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="114.3" y="95.504" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO77" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="91.694" smashed="yes"/>
 <element name="LOGO78" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="85.344" smashed="yes" rot="MR0"/>
 <element name="LOGO79" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="100.584" smashed="yes" rot="MR0"/>
 <element name="LOGO80" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="116.332" y="90.424" smashed="yes" rot="MR0"/>
 <element name="U$138" library="output" package="PWR0" value="" x="112.268" y="96.266" smashed="yes"/>
-<element name="U$139" library="output" package="PWR0" value="" x="116.586" y="96.266" smashed="yes" rot="MR0"/>
-<element name="U$140" library="output" package="MULTIPORT0" value="" x="112.141" y="89.154" smashed="yes"/>
+<element name="U$139" library="output" package="MULTIPORT0" value="" x="112.141" y="89.154" smashed="yes"/>
+<element name="U$140" library="output" package="#PWR#0" value="" x="119.253" y="96.647" smashed="yes" rot="MR0"/>
 <element name="J81" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="12.7" y="108.712" smashed="yes">
 <attribute name="NAME" x="11.303" y="106.553" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="33.02" y="103.632" size="1.778" layer="27" display="off"/>
@@ -3879,21 +4061,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$142" library="output" package="PWR0" value="" x="8.636" y="122.174" smashed="yes"/>
 <element name="U$143" library="output" package="MULTI0" value="" x="15.24" y="107.823" smashed="yes" rot="MR0"/>
 <element name="U$144" library="output" package="PORT0" value="" x="14.986" y="106.426" smashed="yes" rot="MR0"/>
-<element name="FD81" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="118.872" smashed="yes" rot="MR0"/>
-<element name="FD82" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="6.35" y="118.872" smashed="yes"/>
-<element name="FD83" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="113.792" smashed="yes"/>
-<element name="FD84" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="19.05" y="113.792" smashed="yes" rot="MR0"/>
-<element name="JP21" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="120.523" smashed="yes" rot="MR0">
-<attribute name="NAME" x="10.668" y="121.666" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="10.668" y="119.38" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD81" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="118.872" smashed="yes" rot="MR0"/>
+<element name="FD82" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="6.35" y="118.872" smashed="yes"/>
+<element name="FD83" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="113.792" smashed="yes"/>
+<element name="FD84" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="19.05" y="113.792" smashed="yes" rot="MR0"/>
+<element name="JP21" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="10.668" y="122.555" smashed="yes" rot="MR0">
+<attribute name="NAME" x="10.668" y="123.698" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="10.668" y="121.412" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO81" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="117.602" smashed="yes"/>
 <element name="LOGO82" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="12.7" y="111.252" smashed="yes" rot="MR0"/>
 <element name="LOGO83" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="12.7" y="126.492" smashed="yes" rot="MR0"/>
 <element name="LOGO84" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="12.7" y="116.332" smashed="yes" rot="MR0"/>
 <element name="U$145" library="output" package="PWR0" value="" x="8.636" y="122.174" smashed="yes"/>
-<element name="U$146" library="output" package="PWR0" value="" x="12.954" y="122.174" smashed="yes" rot="MR0"/>
-<element name="U$147" library="output" package="MULTIPORT0" value="" x="8.509" y="115.062" smashed="yes"/>
+<element name="U$146" library="output" package="MULTIPORT0" value="" x="8.509" y="115.062" smashed="yes"/>
+<element name="U$147" library="output" package="#PWR#0" value="" x="15.621" y="122.555" smashed="yes" rot="MR0"/>
 <element name="J85" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="38.608" y="108.712" smashed="yes">
 <attribute name="NAME" x="37.211" y="106.553" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="58.928" y="103.632" size="1.778" layer="27" display="off"/>
@@ -3936,21 +4118,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$149" library="output" package="PWR0" value="" x="34.544" y="122.174" smashed="yes"/>
 <element name="U$150" library="output" package="MULTI0" value="" x="41.148" y="107.823" smashed="yes" rot="MR0"/>
 <element name="U$151" library="output" package="PORT0" value="" x="40.894" y="106.426" smashed="yes" rot="MR0"/>
-<element name="FD85" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="118.872" smashed="yes" rot="MR0"/>
-<element name="FD86" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="32.258" y="118.872" smashed="yes"/>
-<element name="FD87" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="113.792" smashed="yes"/>
-<element name="FD88" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="44.958" y="113.792" smashed="yes" rot="MR0"/>
-<element name="JP22" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="120.523" smashed="yes" rot="MR0">
-<attribute name="NAME" x="36.576" y="121.666" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="36.576" y="119.38" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD85" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="118.872" smashed="yes" rot="MR0"/>
+<element name="FD86" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="32.258" y="118.872" smashed="yes"/>
+<element name="FD87" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="113.792" smashed="yes"/>
+<element name="FD88" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="44.958" y="113.792" smashed="yes" rot="MR0"/>
+<element name="JP22" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="36.576" y="122.555" smashed="yes" rot="MR0">
+<attribute name="NAME" x="36.576" y="123.698" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="36.576" y="121.412" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO85" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="117.602" smashed="yes"/>
 <element name="LOGO86" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="38.608" y="111.252" smashed="yes" rot="MR0"/>
 <element name="LOGO87" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="38.608" y="126.492" smashed="yes" rot="MR0"/>
 <element name="LOGO88" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="38.608" y="116.332" smashed="yes" rot="MR0"/>
 <element name="U$152" library="output" package="PWR0" value="" x="34.544" y="122.174" smashed="yes"/>
-<element name="U$153" library="output" package="PWR0" value="" x="38.862" y="122.174" smashed="yes" rot="MR0"/>
-<element name="U$154" library="output" package="MULTIPORT0" value="" x="34.417" y="115.062" smashed="yes"/>
+<element name="U$153" library="output" package="MULTIPORT0" value="" x="34.417" y="115.062" smashed="yes"/>
+<element name="U$154" library="output" package="#PWR#0" value="" x="41.529" y="122.555" smashed="yes" rot="MR0"/>
 <element name="J89" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="64.516" y="108.712" smashed="yes">
 <attribute name="NAME" x="63.119" y="106.553" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="84.836" y="103.632" size="1.778" layer="27" display="off"/>
@@ -3993,21 +4175,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$156" library="output" package="PWR0" value="" x="60.452" y="122.174" smashed="yes"/>
 <element name="U$157" library="output" package="MULTI0" value="" x="67.056" y="107.823" smashed="yes" rot="MR0"/>
 <element name="U$158" library="output" package="PORT0" value="" x="66.802" y="106.426" smashed="yes" rot="MR0"/>
-<element name="FD89" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="118.872" smashed="yes" rot="MR0"/>
-<element name="FD90" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="58.166" y="118.872" smashed="yes"/>
-<element name="FD91" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="113.792" smashed="yes"/>
-<element name="FD92" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="70.866" y="113.792" smashed="yes" rot="MR0"/>
-<element name="JP23" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="120.523" smashed="yes" rot="MR0">
-<attribute name="NAME" x="62.484" y="121.666" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="62.484" y="119.38" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD89" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="118.872" smashed="yes" rot="MR0"/>
+<element name="FD90" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="58.166" y="118.872" smashed="yes"/>
+<element name="FD91" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="113.792" smashed="yes"/>
+<element name="FD92" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="70.866" y="113.792" smashed="yes" rot="MR0"/>
+<element name="JP23" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="62.484" y="122.555" smashed="yes" rot="MR0">
+<attribute name="NAME" x="62.484" y="123.698" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="62.484" y="121.412" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO89" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="117.602" smashed="yes"/>
 <element name="LOGO90" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="64.516" y="111.252" smashed="yes" rot="MR0"/>
 <element name="LOGO91" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="64.516" y="126.492" smashed="yes" rot="MR0"/>
 <element name="LOGO92" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="64.516" y="116.332" smashed="yes" rot="MR0"/>
 <element name="U$159" library="output" package="PWR0" value="" x="60.452" y="122.174" smashed="yes"/>
-<element name="U$160" library="output" package="PWR0" value="" x="64.77" y="122.174" smashed="yes" rot="MR0"/>
-<element name="U$161" library="output" package="MULTIPORT0" value="" x="60.325" y="115.062" smashed="yes"/>
+<element name="U$160" library="output" package="MULTIPORT0" value="" x="60.325" y="115.062" smashed="yes"/>
+<element name="U$161" library="output" package="#PWR#0" value="" x="67.437" y="122.555" smashed="yes" rot="MR0"/>
 <element name="J93" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="90.424" y="108.712" smashed="yes">
 <attribute name="NAME" x="89.027" y="106.553" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="110.744" y="103.632" size="1.778" layer="27" display="off"/>
@@ -4050,21 +4232,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$163" library="output" package="PWR0" value="" x="86.36" y="122.174" smashed="yes"/>
 <element name="U$164" library="output" package="MULTI0" value="" x="92.964" y="107.823" smashed="yes" rot="MR0"/>
 <element name="U$165" library="output" package="PORT0" value="" x="92.71" y="106.426" smashed="yes" rot="MR0"/>
-<element name="FD93" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="118.872" smashed="yes" rot="MR0"/>
-<element name="FD94" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="84.074" y="118.872" smashed="yes"/>
-<element name="FD95" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="113.792" smashed="yes"/>
-<element name="FD96" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="96.774" y="113.792" smashed="yes" rot="MR0"/>
-<element name="JP24" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="120.523" smashed="yes" rot="MR0">
-<attribute name="NAME" x="88.392" y="121.666" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="88.392" y="119.38" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD93" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="118.872" smashed="yes" rot="MR0"/>
+<element name="FD94" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="84.074" y="118.872" smashed="yes"/>
+<element name="FD95" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="113.792" smashed="yes"/>
+<element name="FD96" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="96.774" y="113.792" smashed="yes" rot="MR0"/>
+<element name="JP24" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="88.392" y="122.555" smashed="yes" rot="MR0">
+<attribute name="NAME" x="88.392" y="123.698" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="88.392" y="121.412" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO93" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="117.602" smashed="yes"/>
 <element name="LOGO94" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="90.424" y="111.252" smashed="yes" rot="MR0"/>
 <element name="LOGO95" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="90.424" y="126.492" smashed="yes" rot="MR0"/>
 <element name="LOGO96" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="90.424" y="116.332" smashed="yes" rot="MR0"/>
 <element name="U$166" library="output" package="PWR0" value="" x="86.36" y="122.174" smashed="yes"/>
-<element name="U$167" library="output" package="PWR0" value="" x="90.678" y="122.174" smashed="yes" rot="MR0"/>
-<element name="U$168" library="output" package="MULTIPORT0" value="" x="86.233" y="115.062" smashed="yes"/>
+<element name="U$167" library="output" package="MULTIPORT0" value="" x="86.233" y="115.062" smashed="yes"/>
+<element name="U$168" library="output" package="#PWR#0" value="" x="93.345" y="122.555" smashed="yes" rot="MR0"/>
 <element name="J97" library="SparkFun-Connectors" package="JST04_1MM_RA" value="QWIIC_RIGHT_ANGLE" x="116.332" y="108.712" smashed="yes">
 <attribute name="NAME" x="114.935" y="106.553" size="0.6096" layer="25" font="vector" ratio="20"/>
 <attribute name="PROD_ID" value="CONN-13694" x="136.652" y="103.632" size="1.778" layer="27" display="off"/>
@@ -4107,21 +4289,21 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <element name="U$170" library="output" package="PWR0" value="" x="112.268" y="122.174" smashed="yes"/>
 <element name="U$171" library="output" package="MULTI0" value="" x="118.872" y="107.823" smashed="yes" rot="MR0"/>
 <element name="U$172" library="output" package="PORT0" value="" x="118.618" y="106.426" smashed="yes" rot="MR0"/>
-<element name="FD97" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="118.872" smashed="yes" rot="MR0"/>
-<element name="FD98" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="109.982" y="118.872" smashed="yes"/>
-<element name="FD99" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="113.792" smashed="yes"/>
-<element name="FD100" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="FIDUCIAL1X2" x="122.682" y="113.792" smashed="yes" rot="MR0"/>
-<element name="JP25" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="120.523" smashed="yes" rot="MR0">
-<attribute name="NAME" x="114.3" y="121.666" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
-<attribute name="VALUE" x="114.3" y="119.38" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
+<element name="FD97" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="118.872" smashed="yes" rot="MR0"/>
+<element name="FD98" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="109.982" y="118.872" smashed="yes"/>
+<element name="FD99" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="113.792" smashed="yes"/>
+<element name="FD100" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="122.682" y="113.792" smashed="yes" rot="MR0"/>
+<element name="JP25" library="SparkFun-Jumpers" package="SMT-JUMPER_2_NC_TRACE_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="PWR_LED" x="114.3" y="122.555" smashed="yes" rot="MR0">
+<attribute name="NAME" x="114.3" y="123.698" size="0.6096" layer="26" font="vector" ratio="20" rot="MR0" align="bottom-center"/>
+<attribute name="VALUE" x="114.3" y="121.412" size="0.6096" layer="28" font="vector" ratio="20" rot="MR0" align="top-center"/>
 </element>
 <element name="LOGO97" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="117.602" smashed="yes"/>
 <element name="LOGO98" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="116.332" y="111.252" smashed="yes" rot="MR0"/>
 <element name="LOGO99" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="116.332" y="126.492" smashed="yes" rot="MR0"/>
 <element name="LOGO100" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_.2" value="SFE_LOGO_NAME.2_INCH" x="116.332" y="116.332" smashed="yes" rot="MR0"/>
 <element name="U$173" library="output" package="PWR0" value="" x="112.268" y="122.174" smashed="yes"/>
-<element name="U$174" library="output" package="PWR0" value="" x="116.586" y="122.174" smashed="yes" rot="MR0"/>
-<element name="U$175" library="output" package="MULTIPORT0" value="" x="112.141" y="115.062" smashed="yes"/>
+<element name="U$174" library="output" package="MULTIPORT0" value="" x="112.141" y="115.062" smashed="yes"/>
+<element name="U$175" library="output" package="#PWR#0" value="" x="119.253" y="122.555" smashed="yes" rot="MR0"/>
 <element name="E$1" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="126.365" smashed="yes"/>
 <element name="E$2" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="-2.62381875" y="126.365" smashed="yes" rot="MR0"/>
 <element name="E$3" library="SparkFun-Aesthetics" package="FIDUCIAL-1X2" value="" x="131.65581875" y="126.365" smashed="yes"/>
@@ -4265,14 +4447,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="13.2" y1="19.558" x2="13.962" y2="18.796" width="0.508" layer="1"/>
 <wire x1="13.962" y1="18.796" x2="13.97" y2="18.796" width="0.508" layer="1"/>
 <via x="13.97" y="18.796" extent="1-16" drill="0.381"/>
-<wire x1="13.97" y1="18.796" x2="11.049" y2="18.796" width="0.508" layer="16"/>
-<wire x1="11.049" y1="18.796" x2="10.1473" y2="17.8943" width="0.508" layer="16"/>
 <wire x1="13.97" y1="18.796" x2="13.97" y2="18.288" width="0.508" layer="16"/>
 <wire x1="13.97" y1="18.288" x2="13.208" y2="17.526" width="0.508" layer="16"/>
 <wire x1="13.208" y1="14.986" x2="13.716" y2="14.478" width="0.508" layer="16"/>
 <wire x1="13.716" y1="14.478" x2="13.716" y2="13.208" width="0.508" layer="16"/>
 <wire x1="13.208" y1="17.526" x2="13.208" y2="14.986" width="0.508" layer="16"/>
-<wire x1="10.1473" y1="16.891" x2="10.1473" y2="17.8943" width="0.508" layer="16"/>
+<wire x1="13.97" y1="18.796" x2="13.97" y2="19.685" width="0.508" layer="16"/>
+<wire x1="13.97" y1="19.685" x2="12.954" y2="20.701" width="0.508" layer="16"/>
+<wire x1="12.954" y1="20.701" x2="10.7823" y2="20.701" width="0.508" layer="16"/>
+<wire x1="10.7823" y1="20.701" x2="10.1473" y2="20.066" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="18.923" x2="10.1473" y2="20.066" width="0.508" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="A"/>
@@ -4287,7 +4471,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="11.518" y1="14.9361" x2="11.684" y2="14.7701" width="0.254" layer="1"/>
 <via x="11.684" y="14.7701" extent="1-16" drill="0.381"/>
 <wire x1="11.684" y1="14.7701" x2="11.1887" y2="15.2654" width="0.254" layer="16"/>
-<wire x1="11.1887" y1="15.2654" x2="11.1887" y2="16.891" width="0.254" layer="16"/>
+<wire x1="11.1887" y1="15.2654" x2="11.1887" y2="18.923" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL1">
 <contactref element="J5" pad="4"/>
@@ -4424,14 +4608,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="39.108" y1="19.558" x2="39.87" y2="18.796" width="0.508" layer="1"/>
 <wire x1="39.87" y1="18.796" x2="39.878" y2="18.796" width="0.508" layer="1"/>
 <via x="39.878" y="18.796" extent="1-16" drill="0.381"/>
-<wire x1="39.878" y1="18.796" x2="36.957" y2="18.796" width="0.508" layer="16"/>
-<wire x1="36.957" y1="18.796" x2="36.0553" y2="17.8943" width="0.508" layer="16"/>
 <wire x1="39.878" y1="18.796" x2="39.878" y2="18.288" width="0.508" layer="16"/>
 <wire x1="39.878" y1="18.288" x2="39.116" y2="17.526" width="0.508" layer="16"/>
 <wire x1="39.116" y1="14.986" x2="39.624" y2="14.478" width="0.508" layer="16"/>
 <wire x1="39.624" y1="14.478" x2="39.624" y2="13.208" width="0.508" layer="16"/>
 <wire x1="39.116" y1="17.526" x2="39.116" y2="14.986" width="0.508" layer="16"/>
-<wire x1="36.0553" y1="16.891" x2="36.0553" y2="17.8943" width="0.508" layer="16"/>
+<wire x1="39.878" y1="18.796" x2="39.878" y2="19.685" width="0.508" layer="16"/>
+<wire x1="39.878" y1="19.685" x2="38.862" y2="20.701" width="0.508" layer="16"/>
+<wire x1="38.862" y1="20.701" x2="36.6903" y2="20.701" width="0.508" layer="16"/>
+<wire x1="36.6903" y1="20.701" x2="36.0553" y2="20.066" width="0.508" layer="16"/>
+<wire x1="36.0553" y1="18.923" x2="36.0553" y2="20.066" width="0.508" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="D2" pad="A"/>
@@ -4446,7 +4632,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="37.426" y1="14.9361" x2="37.592" y2="14.7701" width="0.254" layer="1"/>
 <via x="37.592" y="14.7701" extent="1-16" drill="0.381"/>
 <wire x1="37.592" y1="14.7701" x2="37.0967" y2="15.2654" width="0.254" layer="16"/>
-<wire x1="37.0967" y1="15.2654" x2="37.0967" y2="16.891" width="0.254" layer="16"/>
+<wire x1="37.0967" y1="15.2654" x2="37.0967" y2="18.923" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL2">
 <contactref element="J9" pad="4"/>
@@ -4583,14 +4769,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="65.016" y1="19.558" x2="65.778" y2="18.796" width="0.508" layer="1"/>
 <wire x1="65.778" y1="18.796" x2="65.786" y2="18.796" width="0.508" layer="1"/>
 <via x="65.786" y="18.796" extent="1-16" drill="0.381"/>
-<wire x1="65.786" y1="18.796" x2="62.865" y2="18.796" width="0.508" layer="16"/>
-<wire x1="62.865" y1="18.796" x2="61.9633" y2="17.8943" width="0.508" layer="16"/>
 <wire x1="65.786" y1="18.796" x2="65.786" y2="18.288" width="0.508" layer="16"/>
 <wire x1="65.786" y1="18.288" x2="65.024" y2="17.526" width="0.508" layer="16"/>
 <wire x1="65.024" y1="14.986" x2="65.532" y2="14.478" width="0.508" layer="16"/>
 <wire x1="65.532" y1="14.478" x2="65.532" y2="13.208" width="0.508" layer="16"/>
 <wire x1="65.024" y1="17.526" x2="65.024" y2="14.986" width="0.508" layer="16"/>
-<wire x1="61.9633" y1="16.891" x2="61.9633" y2="17.8943" width="0.508" layer="16"/>
+<wire x1="65.786" y1="18.796" x2="65.786" y2="19.685" width="0.508" layer="16"/>
+<wire x1="65.786" y1="19.685" x2="64.77" y2="20.701" width="0.508" layer="16"/>
+<wire x1="64.77" y1="20.701" x2="62.5983" y2="20.701" width="0.508" layer="16"/>
+<wire x1="62.5983" y1="20.701" x2="61.9633" y2="20.066" width="0.508" layer="16"/>
+<wire x1="61.9633" y1="18.923" x2="61.9633" y2="20.066" width="0.508" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="D3" pad="A"/>
@@ -4605,7 +4793,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="63.334" y1="14.9361" x2="63.5" y2="14.7701" width="0.254" layer="1"/>
 <via x="63.5" y="14.7701" extent="1-16" drill="0.381"/>
 <wire x1="63.5" y1="14.7701" x2="63.0047" y2="15.2654" width="0.254" layer="16"/>
-<wire x1="63.0047" y1="15.2654" x2="63.0047" y2="16.891" width="0.254" layer="16"/>
+<wire x1="63.0047" y1="15.2654" x2="63.0047" y2="18.923" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL3">
 <contactref element="J13" pad="4"/>
@@ -4742,14 +4930,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="90.924" y1="19.558" x2="91.686" y2="18.796" width="0.508" layer="1"/>
 <wire x1="91.686" y1="18.796" x2="91.694" y2="18.796" width="0.508" layer="1"/>
 <via x="91.694" y="18.796" extent="1-16" drill="0.381"/>
-<wire x1="91.694" y1="18.796" x2="88.773" y2="18.796" width="0.508" layer="16"/>
-<wire x1="88.773" y1="18.796" x2="87.8713" y2="17.8943" width="0.508" layer="16"/>
 <wire x1="91.694" y1="18.796" x2="91.694" y2="18.288" width="0.508" layer="16"/>
 <wire x1="91.694" y1="18.288" x2="90.932" y2="17.526" width="0.508" layer="16"/>
 <wire x1="90.932" y1="14.986" x2="91.44" y2="14.478" width="0.508" layer="16"/>
 <wire x1="91.44" y1="14.478" x2="91.44" y2="13.208" width="0.508" layer="16"/>
 <wire x1="90.932" y1="17.526" x2="90.932" y2="14.986" width="0.508" layer="16"/>
-<wire x1="87.8713" y1="16.891" x2="87.8713" y2="17.8943" width="0.508" layer="16"/>
+<wire x1="91.694" y1="18.796" x2="91.694" y2="19.685" width="0.508" layer="16"/>
+<wire x1="91.694" y1="19.685" x2="90.678" y2="20.701" width="0.508" layer="16"/>
+<wire x1="90.678" y1="20.701" x2="88.5063" y2="20.701" width="0.508" layer="16"/>
+<wire x1="88.5063" y1="20.701" x2="87.8713" y2="20.066" width="0.508" layer="16"/>
+<wire x1="87.8713" y1="18.923" x2="87.8713" y2="20.066" width="0.508" layer="16"/>
 </signal>
 <signal name="N$7">
 <contactref element="D4" pad="A"/>
@@ -4764,7 +4954,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="89.242" y1="14.9361" x2="89.408" y2="14.7701" width="0.254" layer="1"/>
 <via x="89.408" y="14.7701" extent="1-16" drill="0.381"/>
 <wire x1="89.408" y1="14.7701" x2="88.9127" y2="15.2654" width="0.254" layer="16"/>
-<wire x1="88.9127" y1="15.2654" x2="88.9127" y2="16.891" width="0.254" layer="16"/>
+<wire x1="88.9127" y1="15.2654" x2="88.9127" y2="18.923" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL4">
 <contactref element="J17" pad="4"/>
@@ -4901,14 +5091,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="116.832" y1="19.558" x2="117.594" y2="18.796" width="0.508" layer="1"/>
 <wire x1="117.594" y1="18.796" x2="117.602" y2="18.796" width="0.508" layer="1"/>
 <via x="117.602" y="18.796" extent="1-16" drill="0.381"/>
-<wire x1="117.602" y1="18.796" x2="114.681" y2="18.796" width="0.508" layer="16"/>
-<wire x1="114.681" y1="18.796" x2="113.7793" y2="17.8943" width="0.508" layer="16"/>
 <wire x1="117.602" y1="18.796" x2="117.602" y2="18.288" width="0.508" layer="16"/>
 <wire x1="117.602" y1="18.288" x2="116.84" y2="17.526" width="0.508" layer="16"/>
 <wire x1="116.84" y1="14.986" x2="117.348" y2="14.478" width="0.508" layer="16"/>
 <wire x1="117.348" y1="14.478" x2="117.348" y2="13.208" width="0.508" layer="16"/>
 <wire x1="116.84" y1="17.526" x2="116.84" y2="14.986" width="0.508" layer="16"/>
-<wire x1="113.7793" y1="16.891" x2="113.7793" y2="17.8943" width="0.508" layer="16"/>
+<wire x1="117.602" y1="18.796" x2="117.602" y2="19.685" width="0.508" layer="16"/>
+<wire x1="117.602" y1="19.685" x2="116.586" y2="20.701" width="0.508" layer="16"/>
+<wire x1="116.586" y1="20.701" x2="114.4143" y2="20.701" width="0.508" layer="16"/>
+<wire x1="114.4143" y1="20.701" x2="113.7793" y2="20.066" width="0.508" layer="16"/>
+<wire x1="113.7793" y1="18.923" x2="113.7793" y2="20.066" width="0.508" layer="16"/>
 </signal>
 <signal name="N$9">
 <contactref element="D5" pad="A"/>
@@ -4923,7 +5115,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="115.15" y1="14.9361" x2="115.316" y2="14.7701" width="0.254" layer="1"/>
 <via x="115.316" y="14.7701" extent="1-16" drill="0.381"/>
 <wire x1="115.316" y1="14.7701" x2="114.8207" y2="15.2654" width="0.254" layer="16"/>
-<wire x1="114.8207" y1="15.2654" x2="114.8207" y2="16.891" width="0.254" layer="16"/>
+<wire x1="114.8207" y1="15.2654" x2="114.8207" y2="18.923" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL5">
 <contactref element="J21" pad="4"/>
@@ -5060,14 +5252,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="13.2" y1="45.466" x2="13.962" y2="44.704" width="0.508" layer="1"/>
 <wire x1="13.962" y1="44.704" x2="13.97" y2="44.704" width="0.508" layer="1"/>
 <via x="13.97" y="44.704" extent="1-16" drill="0.381"/>
-<wire x1="13.97" y1="44.704" x2="11.049" y2="44.704" width="0.508" layer="16"/>
-<wire x1="11.049" y1="44.704" x2="10.1473" y2="43.8023" width="0.508" layer="16"/>
 <wire x1="13.97" y1="44.704" x2="13.97" y2="44.196" width="0.508" layer="16"/>
 <wire x1="13.97" y1="44.196" x2="13.208" y2="43.434" width="0.508" layer="16"/>
 <wire x1="13.208" y1="40.894" x2="13.716" y2="40.386" width="0.508" layer="16"/>
 <wire x1="13.716" y1="40.386" x2="13.716" y2="39.116" width="0.508" layer="16"/>
 <wire x1="13.208" y1="43.434" x2="13.208" y2="40.894" width="0.508" layer="16"/>
-<wire x1="10.1473" y1="42.799" x2="10.1473" y2="43.8023" width="0.508" layer="16"/>
+<wire x1="13.97" y1="44.704" x2="13.97" y2="45.593" width="0.508" layer="16"/>
+<wire x1="13.97" y1="45.593" x2="12.954" y2="46.609" width="0.508" layer="16"/>
+<wire x1="12.954" y1="46.609" x2="10.7823" y2="46.609" width="0.508" layer="16"/>
+<wire x1="10.7823" y1="46.609" x2="10.1473" y2="45.974" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="44.831" x2="10.1473" y2="45.974" width="0.508" layer="16"/>
 </signal>
 <signal name="N$11">
 <contactref element="D6" pad="A"/>
@@ -5082,7 +5276,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="11.518" y1="40.8441" x2="11.684" y2="40.6781" width="0.254" layer="1"/>
 <via x="11.684" y="40.6781" extent="1-16" drill="0.381"/>
 <wire x1="11.684" y1="40.6781" x2="11.1887" y2="41.1734" width="0.254" layer="16"/>
-<wire x1="11.1887" y1="41.1734" x2="11.1887" y2="42.799" width="0.254" layer="16"/>
+<wire x1="11.1887" y1="41.1734" x2="11.1887" y2="44.831" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL6">
 <contactref element="J25" pad="4"/>
@@ -5219,14 +5413,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="39.108" y1="45.466" x2="39.87" y2="44.704" width="0.508" layer="1"/>
 <wire x1="39.87" y1="44.704" x2="39.878" y2="44.704" width="0.508" layer="1"/>
 <via x="39.878" y="44.704" extent="1-16" drill="0.381"/>
-<wire x1="39.878" y1="44.704" x2="36.957" y2="44.704" width="0.508" layer="16"/>
-<wire x1="36.957" y1="44.704" x2="36.0553" y2="43.8023" width="0.508" layer="16"/>
 <wire x1="39.878" y1="44.704" x2="39.878" y2="44.196" width="0.508" layer="16"/>
 <wire x1="39.878" y1="44.196" x2="39.116" y2="43.434" width="0.508" layer="16"/>
 <wire x1="39.116" y1="40.894" x2="39.624" y2="40.386" width="0.508" layer="16"/>
 <wire x1="39.624" y1="40.386" x2="39.624" y2="39.116" width="0.508" layer="16"/>
 <wire x1="39.116" y1="43.434" x2="39.116" y2="40.894" width="0.508" layer="16"/>
-<wire x1="36.0553" y1="42.799" x2="36.0553" y2="43.8023" width="0.508" layer="16"/>
+<wire x1="39.878" y1="44.704" x2="39.878" y2="45.593" width="0.508" layer="16"/>
+<wire x1="39.878" y1="45.593" x2="38.862" y2="46.609" width="0.508" layer="16"/>
+<wire x1="38.862" y1="46.609" x2="36.6903" y2="46.609" width="0.508" layer="16"/>
+<wire x1="36.6903" y1="46.609" x2="36.0553" y2="45.974" width="0.508" layer="16"/>
+<wire x1="36.0553" y1="44.831" x2="36.0553" y2="45.974" width="0.508" layer="16"/>
 </signal>
 <signal name="N$13">
 <contactref element="D7" pad="A"/>
@@ -5241,7 +5437,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="37.426" y1="40.8441" x2="37.592" y2="40.6781" width="0.254" layer="1"/>
 <via x="37.592" y="40.6781" extent="1-16" drill="0.381"/>
 <wire x1="37.592" y1="40.6781" x2="37.0967" y2="41.1734" width="0.254" layer="16"/>
-<wire x1="37.0967" y1="41.1734" x2="37.0967" y2="42.799" width="0.254" layer="16"/>
+<wire x1="37.0967" y1="41.1734" x2="37.0967" y2="44.831" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL7">
 <contactref element="J29" pad="4"/>
@@ -5378,14 +5574,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="65.016" y1="45.466" x2="65.778" y2="44.704" width="0.508" layer="1"/>
 <wire x1="65.778" y1="44.704" x2="65.786" y2="44.704" width="0.508" layer="1"/>
 <via x="65.786" y="44.704" extent="1-16" drill="0.381"/>
-<wire x1="65.786" y1="44.704" x2="62.865" y2="44.704" width="0.508" layer="16"/>
-<wire x1="62.865" y1="44.704" x2="61.9633" y2="43.8023" width="0.508" layer="16"/>
 <wire x1="65.786" y1="44.704" x2="65.786" y2="44.196" width="0.508" layer="16"/>
 <wire x1="65.786" y1="44.196" x2="65.024" y2="43.434" width="0.508" layer="16"/>
 <wire x1="65.024" y1="40.894" x2="65.532" y2="40.386" width="0.508" layer="16"/>
 <wire x1="65.532" y1="40.386" x2="65.532" y2="39.116" width="0.508" layer="16"/>
 <wire x1="65.024" y1="43.434" x2="65.024" y2="40.894" width="0.508" layer="16"/>
-<wire x1="61.9633" y1="42.799" x2="61.9633" y2="43.8023" width="0.508" layer="16"/>
+<wire x1="65.786" y1="44.704" x2="65.786" y2="45.593" width="0.508" layer="16"/>
+<wire x1="65.786" y1="45.593" x2="64.77" y2="46.609" width="0.508" layer="16"/>
+<wire x1="64.77" y1="46.609" x2="62.5983" y2="46.609" width="0.508" layer="16"/>
+<wire x1="62.5983" y1="46.609" x2="61.9633" y2="45.974" width="0.508" layer="16"/>
+<wire x1="61.9633" y1="44.831" x2="61.9633" y2="45.974" width="0.508" layer="16"/>
 </signal>
 <signal name="N$15">
 <contactref element="D8" pad="A"/>
@@ -5400,7 +5598,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="63.334" y1="40.8441" x2="63.5" y2="40.6781" width="0.254" layer="1"/>
 <via x="63.5" y="40.6781" extent="1-16" drill="0.381"/>
 <wire x1="63.5" y1="40.6781" x2="63.0047" y2="41.1734" width="0.254" layer="16"/>
-<wire x1="63.0047" y1="41.1734" x2="63.0047" y2="42.799" width="0.254" layer="16"/>
+<wire x1="63.0047" y1="41.1734" x2="63.0047" y2="44.831" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL8">
 <contactref element="J33" pad="4"/>
@@ -5537,14 +5735,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="90.924" y1="45.466" x2="91.686" y2="44.704" width="0.508" layer="1"/>
 <wire x1="91.686" y1="44.704" x2="91.694" y2="44.704" width="0.508" layer="1"/>
 <via x="91.694" y="44.704" extent="1-16" drill="0.381"/>
-<wire x1="91.694" y1="44.704" x2="88.773" y2="44.704" width="0.508" layer="16"/>
-<wire x1="88.773" y1="44.704" x2="87.8713" y2="43.8023" width="0.508" layer="16"/>
 <wire x1="91.694" y1="44.704" x2="91.694" y2="44.196" width="0.508" layer="16"/>
 <wire x1="91.694" y1="44.196" x2="90.932" y2="43.434" width="0.508" layer="16"/>
 <wire x1="90.932" y1="40.894" x2="91.44" y2="40.386" width="0.508" layer="16"/>
 <wire x1="91.44" y1="40.386" x2="91.44" y2="39.116" width="0.508" layer="16"/>
 <wire x1="90.932" y1="43.434" x2="90.932" y2="40.894" width="0.508" layer="16"/>
-<wire x1="87.8713" y1="42.799" x2="87.8713" y2="43.8023" width="0.508" layer="16"/>
+<wire x1="91.694" y1="44.704" x2="91.694" y2="45.593" width="0.508" layer="16"/>
+<wire x1="91.694" y1="45.593" x2="90.678" y2="46.609" width="0.508" layer="16"/>
+<wire x1="90.678" y1="46.609" x2="88.5063" y2="46.609" width="0.508" layer="16"/>
+<wire x1="88.5063" y1="46.609" x2="87.8713" y2="45.974" width="0.508" layer="16"/>
+<wire x1="87.8713" y1="44.831" x2="87.8713" y2="45.974" width="0.508" layer="16"/>
 </signal>
 <signal name="N$17">
 <contactref element="D9" pad="A"/>
@@ -5559,7 +5759,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="89.242" y1="40.8441" x2="89.408" y2="40.6781" width="0.254" layer="1"/>
 <via x="89.408" y="40.6781" extent="1-16" drill="0.381"/>
 <wire x1="89.408" y1="40.6781" x2="88.9127" y2="41.1734" width="0.254" layer="16"/>
-<wire x1="88.9127" y1="41.1734" x2="88.9127" y2="42.799" width="0.254" layer="16"/>
+<wire x1="88.9127" y1="41.1734" x2="88.9127" y2="44.831" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL9">
 <contactref element="J37" pad="4"/>
@@ -5696,14 +5896,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="116.832" y1="45.466" x2="117.594" y2="44.704" width="0.508" layer="1"/>
 <wire x1="117.594" y1="44.704" x2="117.602" y2="44.704" width="0.508" layer="1"/>
 <via x="117.602" y="44.704" extent="1-16" drill="0.381"/>
-<wire x1="117.602" y1="44.704" x2="114.681" y2="44.704" width="0.508" layer="16"/>
-<wire x1="114.681" y1="44.704" x2="113.7793" y2="43.8023" width="0.508" layer="16"/>
 <wire x1="117.602" y1="44.704" x2="117.602" y2="44.196" width="0.508" layer="16"/>
 <wire x1="117.602" y1="44.196" x2="116.84" y2="43.434" width="0.508" layer="16"/>
 <wire x1="116.84" y1="40.894" x2="117.348" y2="40.386" width="0.508" layer="16"/>
 <wire x1="117.348" y1="40.386" x2="117.348" y2="39.116" width="0.508" layer="16"/>
 <wire x1="116.84" y1="43.434" x2="116.84" y2="40.894" width="0.508" layer="16"/>
-<wire x1="113.7793" y1="42.799" x2="113.7793" y2="43.8023" width="0.508" layer="16"/>
+<wire x1="117.602" y1="44.704" x2="117.602" y2="45.593" width="0.508" layer="16"/>
+<wire x1="117.602" y1="45.593" x2="116.586" y2="46.609" width="0.508" layer="16"/>
+<wire x1="116.586" y1="46.609" x2="114.4143" y2="46.609" width="0.508" layer="16"/>
+<wire x1="114.4143" y1="46.609" x2="113.7793" y2="45.974" width="0.508" layer="16"/>
+<wire x1="113.7793" y1="44.831" x2="113.7793" y2="45.974" width="0.508" layer="16"/>
 </signal>
 <signal name="N$19">
 <contactref element="D10" pad="A"/>
@@ -5718,7 +5920,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="115.15" y1="40.8441" x2="115.316" y2="40.6781" width="0.254" layer="1"/>
 <via x="115.316" y="40.6781" extent="1-16" drill="0.381"/>
 <wire x1="115.316" y1="40.6781" x2="114.8207" y2="41.1734" width="0.254" layer="16"/>
-<wire x1="114.8207" y1="41.1734" x2="114.8207" y2="42.799" width="0.254" layer="16"/>
+<wire x1="114.8207" y1="41.1734" x2="114.8207" y2="44.831" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL10">
 <contactref element="J41" pad="4"/>
@@ -5855,14 +6057,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="13.2" y1="71.374" x2="13.962" y2="70.612" width="0.508" layer="1"/>
 <wire x1="13.962" y1="70.612" x2="13.97" y2="70.612" width="0.508" layer="1"/>
 <via x="13.97" y="70.612" extent="1-16" drill="0.381"/>
-<wire x1="13.97" y1="70.612" x2="11.049" y2="70.612" width="0.508" layer="16"/>
-<wire x1="11.049" y1="70.612" x2="10.1473" y2="69.7103" width="0.508" layer="16"/>
 <wire x1="13.97" y1="70.612" x2="13.97" y2="70.104" width="0.508" layer="16"/>
 <wire x1="13.97" y1="70.104" x2="13.208" y2="69.342" width="0.508" layer="16"/>
 <wire x1="13.208" y1="66.802" x2="13.716" y2="66.294" width="0.508" layer="16"/>
 <wire x1="13.716" y1="66.294" x2="13.716" y2="65.024" width="0.508" layer="16"/>
 <wire x1="13.208" y1="69.342" x2="13.208" y2="66.802" width="0.508" layer="16"/>
-<wire x1="10.1473" y1="68.707" x2="10.1473" y2="69.7103" width="0.508" layer="16"/>
+<wire x1="13.97" y1="70.612" x2="13.97" y2="71.501" width="0.508" layer="16"/>
+<wire x1="13.97" y1="71.501" x2="12.954" y2="72.517" width="0.508" layer="16"/>
+<wire x1="12.954" y1="72.517" x2="10.7823" y2="72.517" width="0.508" layer="16"/>
+<wire x1="10.7823" y1="72.517" x2="10.1473" y2="71.882" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="70.739" x2="10.1473" y2="71.882" width="0.508" layer="16"/>
 </signal>
 <signal name="N$21">
 <contactref element="D11" pad="A"/>
@@ -5877,7 +6081,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="11.518" y1="66.7521" x2="11.684" y2="66.5861" width="0.254" layer="1"/>
 <via x="11.684" y="66.5861" extent="1-16" drill="0.381"/>
 <wire x1="11.684" y1="66.5861" x2="11.1887" y2="67.0814" width="0.254" layer="16"/>
-<wire x1="11.1887" y1="67.0814" x2="11.1887" y2="68.707" width="0.254" layer="16"/>
+<wire x1="11.1887" y1="67.0814" x2="11.1887" y2="70.739" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL11">
 <contactref element="J45" pad="4"/>
@@ -6014,14 +6218,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="39.108" y1="71.374" x2="39.87" y2="70.612" width="0.508" layer="1"/>
 <wire x1="39.87" y1="70.612" x2="39.878" y2="70.612" width="0.508" layer="1"/>
 <via x="39.878" y="70.612" extent="1-16" drill="0.381"/>
-<wire x1="39.878" y1="70.612" x2="36.957" y2="70.612" width="0.508" layer="16"/>
-<wire x1="36.957" y1="70.612" x2="36.0553" y2="69.7103" width="0.508" layer="16"/>
 <wire x1="39.878" y1="70.612" x2="39.878" y2="70.104" width="0.508" layer="16"/>
 <wire x1="39.878" y1="70.104" x2="39.116" y2="69.342" width="0.508" layer="16"/>
 <wire x1="39.116" y1="66.802" x2="39.624" y2="66.294" width="0.508" layer="16"/>
 <wire x1="39.624" y1="66.294" x2="39.624" y2="65.024" width="0.508" layer="16"/>
 <wire x1="39.116" y1="69.342" x2="39.116" y2="66.802" width="0.508" layer="16"/>
-<wire x1="36.0553" y1="68.707" x2="36.0553" y2="69.7103" width="0.508" layer="16"/>
+<wire x1="39.878" y1="70.612" x2="39.878" y2="71.501" width="0.508" layer="16"/>
+<wire x1="39.878" y1="71.501" x2="38.862" y2="72.517" width="0.508" layer="16"/>
+<wire x1="38.862" y1="72.517" x2="36.6903" y2="72.517" width="0.508" layer="16"/>
+<wire x1="36.6903" y1="72.517" x2="36.0553" y2="71.882" width="0.508" layer="16"/>
+<wire x1="36.0553" y1="70.739" x2="36.0553" y2="71.882" width="0.508" layer="16"/>
 </signal>
 <signal name="N$23">
 <contactref element="D12" pad="A"/>
@@ -6036,7 +6242,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="37.426" y1="66.7521" x2="37.592" y2="66.5861" width="0.254" layer="1"/>
 <via x="37.592" y="66.5861" extent="1-16" drill="0.381"/>
 <wire x1="37.592" y1="66.5861" x2="37.0967" y2="67.0814" width="0.254" layer="16"/>
-<wire x1="37.0967" y1="67.0814" x2="37.0967" y2="68.707" width="0.254" layer="16"/>
+<wire x1="37.0967" y1="67.0814" x2="37.0967" y2="70.739" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL12">
 <contactref element="J49" pad="4"/>
@@ -6173,14 +6379,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="65.016" y1="71.374" x2="65.778" y2="70.612" width="0.508" layer="1"/>
 <wire x1="65.778" y1="70.612" x2="65.786" y2="70.612" width="0.508" layer="1"/>
 <via x="65.786" y="70.612" extent="1-16" drill="0.381"/>
-<wire x1="65.786" y1="70.612" x2="62.865" y2="70.612" width="0.508" layer="16"/>
-<wire x1="62.865" y1="70.612" x2="61.9633" y2="69.7103" width="0.508" layer="16"/>
 <wire x1="65.786" y1="70.612" x2="65.786" y2="70.104" width="0.508" layer="16"/>
 <wire x1="65.786" y1="70.104" x2="65.024" y2="69.342" width="0.508" layer="16"/>
 <wire x1="65.024" y1="66.802" x2="65.532" y2="66.294" width="0.508" layer="16"/>
 <wire x1="65.532" y1="66.294" x2="65.532" y2="65.024" width="0.508" layer="16"/>
 <wire x1="65.024" y1="69.342" x2="65.024" y2="66.802" width="0.508" layer="16"/>
-<wire x1="61.9633" y1="68.707" x2="61.9633" y2="69.7103" width="0.508" layer="16"/>
+<wire x1="65.786" y1="70.612" x2="65.786" y2="71.501" width="0.508" layer="16"/>
+<wire x1="65.786" y1="71.501" x2="64.77" y2="72.517" width="0.508" layer="16"/>
+<wire x1="64.77" y1="72.517" x2="62.5983" y2="72.517" width="0.508" layer="16"/>
+<wire x1="62.5983" y1="72.517" x2="61.9633" y2="71.882" width="0.508" layer="16"/>
+<wire x1="61.9633" y1="70.739" x2="61.9633" y2="71.882" width="0.508" layer="16"/>
 </signal>
 <signal name="N$25">
 <contactref element="D13" pad="A"/>
@@ -6195,7 +6403,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="63.334" y1="66.7521" x2="63.5" y2="66.5861" width="0.254" layer="1"/>
 <via x="63.5" y="66.5861" extent="1-16" drill="0.381"/>
 <wire x1="63.5" y1="66.5861" x2="63.0047" y2="67.0814" width="0.254" layer="16"/>
-<wire x1="63.0047" y1="67.0814" x2="63.0047" y2="68.707" width="0.254" layer="16"/>
+<wire x1="63.0047" y1="67.0814" x2="63.0047" y2="70.739" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL13">
 <contactref element="J53" pad="4"/>
@@ -6332,14 +6540,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="90.924" y1="71.374" x2="91.686" y2="70.612" width="0.508" layer="1"/>
 <wire x1="91.686" y1="70.612" x2="91.694" y2="70.612" width="0.508" layer="1"/>
 <via x="91.694" y="70.612" extent="1-16" drill="0.381"/>
-<wire x1="91.694" y1="70.612" x2="88.773" y2="70.612" width="0.508" layer="16"/>
-<wire x1="88.773" y1="70.612" x2="87.8713" y2="69.7103" width="0.508" layer="16"/>
 <wire x1="91.694" y1="70.612" x2="91.694" y2="70.104" width="0.508" layer="16"/>
 <wire x1="91.694" y1="70.104" x2="90.932" y2="69.342" width="0.508" layer="16"/>
 <wire x1="90.932" y1="66.802" x2="91.44" y2="66.294" width="0.508" layer="16"/>
 <wire x1="91.44" y1="66.294" x2="91.44" y2="65.024" width="0.508" layer="16"/>
 <wire x1="90.932" y1="69.342" x2="90.932" y2="66.802" width="0.508" layer="16"/>
-<wire x1="87.8713" y1="68.707" x2="87.8713" y2="69.7103" width="0.508" layer="16"/>
+<wire x1="91.694" y1="70.612" x2="91.694" y2="71.501" width="0.508" layer="16"/>
+<wire x1="91.694" y1="71.501" x2="90.678" y2="72.517" width="0.508" layer="16"/>
+<wire x1="90.678" y1="72.517" x2="88.5063" y2="72.517" width="0.508" layer="16"/>
+<wire x1="88.5063" y1="72.517" x2="87.8713" y2="71.882" width="0.508" layer="16"/>
+<wire x1="87.8713" y1="70.739" x2="87.8713" y2="71.882" width="0.508" layer="16"/>
 </signal>
 <signal name="N$27">
 <contactref element="D14" pad="A"/>
@@ -6354,7 +6564,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="89.242" y1="66.7521" x2="89.408" y2="66.5861" width="0.254" layer="1"/>
 <via x="89.408" y="66.5861" extent="1-16" drill="0.381"/>
 <wire x1="89.408" y1="66.5861" x2="88.9127" y2="67.0814" width="0.254" layer="16"/>
-<wire x1="88.9127" y1="67.0814" x2="88.9127" y2="68.707" width="0.254" layer="16"/>
+<wire x1="88.9127" y1="67.0814" x2="88.9127" y2="70.739" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL14">
 <contactref element="J57" pad="4"/>
@@ -6491,14 +6701,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="116.832" y1="71.374" x2="117.594" y2="70.612" width="0.508" layer="1"/>
 <wire x1="117.594" y1="70.612" x2="117.602" y2="70.612" width="0.508" layer="1"/>
 <via x="117.602" y="70.612" extent="1-16" drill="0.381"/>
-<wire x1="117.602" y1="70.612" x2="114.681" y2="70.612" width="0.508" layer="16"/>
-<wire x1="114.681" y1="70.612" x2="113.7793" y2="69.7103" width="0.508" layer="16"/>
 <wire x1="117.602" y1="70.612" x2="117.602" y2="70.104" width="0.508" layer="16"/>
 <wire x1="117.602" y1="70.104" x2="116.84" y2="69.342" width="0.508" layer="16"/>
 <wire x1="116.84" y1="66.802" x2="117.348" y2="66.294" width="0.508" layer="16"/>
 <wire x1="117.348" y1="66.294" x2="117.348" y2="65.024" width="0.508" layer="16"/>
 <wire x1="116.84" y1="69.342" x2="116.84" y2="66.802" width="0.508" layer="16"/>
-<wire x1="113.7793" y1="68.707" x2="113.7793" y2="69.7103" width="0.508" layer="16"/>
+<wire x1="117.602" y1="70.612" x2="117.602" y2="71.501" width="0.508" layer="16"/>
+<wire x1="117.602" y1="71.501" x2="116.586" y2="72.517" width="0.508" layer="16"/>
+<wire x1="116.586" y1="72.517" x2="114.4143" y2="72.517" width="0.508" layer="16"/>
+<wire x1="114.4143" y1="72.517" x2="113.7793" y2="71.882" width="0.508" layer="16"/>
+<wire x1="113.7793" y1="70.739" x2="113.7793" y2="71.882" width="0.508" layer="16"/>
 </signal>
 <signal name="N$29">
 <contactref element="D15" pad="A"/>
@@ -6513,7 +6725,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="115.15" y1="66.7521" x2="115.316" y2="66.5861" width="0.254" layer="1"/>
 <via x="115.316" y="66.5861" extent="1-16" drill="0.381"/>
 <wire x1="115.316" y1="66.5861" x2="114.8207" y2="67.0814" width="0.254" layer="16"/>
-<wire x1="114.8207" y1="67.0814" x2="114.8207" y2="68.707" width="0.254" layer="16"/>
+<wire x1="114.8207" y1="67.0814" x2="114.8207" y2="70.739" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL15">
 <contactref element="J61" pad="4"/>
@@ -6650,14 +6862,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="13.2" y1="97.282" x2="13.962" y2="96.52" width="0.508" layer="1"/>
 <wire x1="13.962" y1="96.52" x2="13.97" y2="96.52" width="0.508" layer="1"/>
 <via x="13.97" y="96.52" extent="1-16" drill="0.381"/>
-<wire x1="13.97" y1="96.52" x2="11.049" y2="96.52" width="0.508" layer="16"/>
-<wire x1="11.049" y1="96.52" x2="10.1473" y2="95.6183" width="0.508" layer="16"/>
 <wire x1="13.97" y1="96.52" x2="13.97" y2="96.012" width="0.508" layer="16"/>
 <wire x1="13.97" y1="96.012" x2="13.208" y2="95.25" width="0.508" layer="16"/>
 <wire x1="13.208" y1="92.71" x2="13.716" y2="92.202" width="0.508" layer="16"/>
 <wire x1="13.716" y1="92.202" x2="13.716" y2="90.932" width="0.508" layer="16"/>
 <wire x1="13.208" y1="95.25" x2="13.208" y2="92.71" width="0.508" layer="16"/>
-<wire x1="10.1473" y1="94.615" x2="10.1473" y2="95.6183" width="0.508" layer="16"/>
+<wire x1="13.97" y1="96.52" x2="13.97" y2="97.409" width="0.508" layer="16"/>
+<wire x1="13.97" y1="97.409" x2="12.954" y2="98.425" width="0.508" layer="16"/>
+<wire x1="12.954" y1="98.425" x2="10.7823" y2="98.425" width="0.508" layer="16"/>
+<wire x1="10.7823" y1="98.425" x2="10.1473" y2="97.79" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="96.647" x2="10.1473" y2="97.79" width="0.508" layer="16"/>
 </signal>
 <signal name="N$31">
 <contactref element="D16" pad="A"/>
@@ -6672,7 +6886,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="11.518" y1="92.6601" x2="11.684" y2="92.4941" width="0.254" layer="1"/>
 <via x="11.684" y="92.4941" extent="1-16" drill="0.381"/>
 <wire x1="11.684" y1="92.4941" x2="11.1887" y2="92.9894" width="0.254" layer="16"/>
-<wire x1="11.1887" y1="92.9894" x2="11.1887" y2="94.615" width="0.254" layer="16"/>
+<wire x1="11.1887" y1="92.9894" x2="11.1887" y2="96.647" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL16">
 <contactref element="J65" pad="4"/>
@@ -6809,14 +7023,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="39.108" y1="97.282" x2="39.87" y2="96.52" width="0.508" layer="1"/>
 <wire x1="39.87" y1="96.52" x2="39.878" y2="96.52" width="0.508" layer="1"/>
 <via x="39.878" y="96.52" extent="1-16" drill="0.381"/>
-<wire x1="39.878" y1="96.52" x2="36.957" y2="96.52" width="0.508" layer="16"/>
-<wire x1="36.957" y1="96.52" x2="36.0553" y2="95.6183" width="0.508" layer="16"/>
 <wire x1="39.878" y1="96.52" x2="39.878" y2="96.012" width="0.508" layer="16"/>
 <wire x1="39.878" y1="96.012" x2="39.116" y2="95.25" width="0.508" layer="16"/>
 <wire x1="39.116" y1="92.71" x2="39.624" y2="92.202" width="0.508" layer="16"/>
 <wire x1="39.624" y1="92.202" x2="39.624" y2="90.932" width="0.508" layer="16"/>
 <wire x1="39.116" y1="95.25" x2="39.116" y2="92.71" width="0.508" layer="16"/>
-<wire x1="36.0553" y1="94.615" x2="36.0553" y2="95.6183" width="0.508" layer="16"/>
+<wire x1="39.878" y1="96.52" x2="39.878" y2="97.409" width="0.508" layer="16"/>
+<wire x1="39.878" y1="97.409" x2="38.862" y2="98.425" width="0.508" layer="16"/>
+<wire x1="38.862" y1="98.425" x2="36.6903" y2="98.425" width="0.508" layer="16"/>
+<wire x1="36.6903" y1="98.425" x2="36.0553" y2="97.79" width="0.508" layer="16"/>
+<wire x1="36.0553" y1="96.647" x2="36.0553" y2="97.79" width="0.508" layer="16"/>
 </signal>
 <signal name="N$33">
 <contactref element="D17" pad="A"/>
@@ -6831,7 +7047,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="37.426" y1="92.6601" x2="37.592" y2="92.4941" width="0.254" layer="1"/>
 <via x="37.592" y="92.4941" extent="1-16" drill="0.381"/>
 <wire x1="37.592" y1="92.4941" x2="37.0967" y2="92.9894" width="0.254" layer="16"/>
-<wire x1="37.0967" y1="92.9894" x2="37.0967" y2="94.615" width="0.254" layer="16"/>
+<wire x1="37.0967" y1="92.9894" x2="37.0967" y2="96.647" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL17">
 <contactref element="J69" pad="4"/>
@@ -6968,14 +7184,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="65.016" y1="97.282" x2="65.778" y2="96.52" width="0.508" layer="1"/>
 <wire x1="65.778" y1="96.52" x2="65.786" y2="96.52" width="0.508" layer="1"/>
 <via x="65.786" y="96.52" extent="1-16" drill="0.381"/>
-<wire x1="65.786" y1="96.52" x2="62.865" y2="96.52" width="0.508" layer="16"/>
-<wire x1="62.865" y1="96.52" x2="61.9633" y2="95.6183" width="0.508" layer="16"/>
 <wire x1="65.786" y1="96.52" x2="65.786" y2="96.012" width="0.508" layer="16"/>
 <wire x1="65.786" y1="96.012" x2="65.024" y2="95.25" width="0.508" layer="16"/>
 <wire x1="65.024" y1="92.71" x2="65.532" y2="92.202" width="0.508" layer="16"/>
 <wire x1="65.532" y1="92.202" x2="65.532" y2="90.932" width="0.508" layer="16"/>
 <wire x1="65.024" y1="95.25" x2="65.024" y2="92.71" width="0.508" layer="16"/>
-<wire x1="61.9633" y1="94.615" x2="61.9633" y2="95.6183" width="0.508" layer="16"/>
+<wire x1="65.786" y1="96.52" x2="65.786" y2="97.409" width="0.508" layer="16"/>
+<wire x1="65.786" y1="97.409" x2="64.77" y2="98.425" width="0.508" layer="16"/>
+<wire x1="64.77" y1="98.425" x2="62.5983" y2="98.425" width="0.508" layer="16"/>
+<wire x1="62.5983" y1="98.425" x2="61.9633" y2="97.79" width="0.508" layer="16"/>
+<wire x1="61.9633" y1="96.647" x2="61.9633" y2="97.79" width="0.508" layer="16"/>
 </signal>
 <signal name="N$35">
 <contactref element="D18" pad="A"/>
@@ -6990,7 +7208,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="63.334" y1="92.6601" x2="63.5" y2="92.4941" width="0.254" layer="1"/>
 <via x="63.5" y="92.4941" extent="1-16" drill="0.381"/>
 <wire x1="63.5" y1="92.4941" x2="63.0047" y2="92.9894" width="0.254" layer="16"/>
-<wire x1="63.0047" y1="92.9894" x2="63.0047" y2="94.615" width="0.254" layer="16"/>
+<wire x1="63.0047" y1="92.9894" x2="63.0047" y2="96.647" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL18">
 <contactref element="J73" pad="4"/>
@@ -7127,14 +7345,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="90.924" y1="97.282" x2="91.686" y2="96.52" width="0.508" layer="1"/>
 <wire x1="91.686" y1="96.52" x2="91.694" y2="96.52" width="0.508" layer="1"/>
 <via x="91.694" y="96.52" extent="1-16" drill="0.381"/>
-<wire x1="91.694" y1="96.52" x2="88.773" y2="96.52" width="0.508" layer="16"/>
-<wire x1="88.773" y1="96.52" x2="87.8713" y2="95.6183" width="0.508" layer="16"/>
 <wire x1="91.694" y1="96.52" x2="91.694" y2="96.012" width="0.508" layer="16"/>
 <wire x1="91.694" y1="96.012" x2="90.932" y2="95.25" width="0.508" layer="16"/>
 <wire x1="90.932" y1="92.71" x2="91.44" y2="92.202" width="0.508" layer="16"/>
 <wire x1="91.44" y1="92.202" x2="91.44" y2="90.932" width="0.508" layer="16"/>
 <wire x1="90.932" y1="95.25" x2="90.932" y2="92.71" width="0.508" layer="16"/>
-<wire x1="87.8713" y1="94.615" x2="87.8713" y2="95.6183" width="0.508" layer="16"/>
+<wire x1="91.694" y1="96.52" x2="91.694" y2="97.409" width="0.508" layer="16"/>
+<wire x1="91.694" y1="97.409" x2="90.678" y2="98.425" width="0.508" layer="16"/>
+<wire x1="90.678" y1="98.425" x2="88.5063" y2="98.425" width="0.508" layer="16"/>
+<wire x1="88.5063" y1="98.425" x2="87.8713" y2="97.79" width="0.508" layer="16"/>
+<wire x1="87.8713" y1="96.647" x2="87.8713" y2="97.79" width="0.508" layer="16"/>
 </signal>
 <signal name="N$37">
 <contactref element="D19" pad="A"/>
@@ -7149,7 +7369,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="89.242" y1="92.6601" x2="89.408" y2="92.4941" width="0.254" layer="1"/>
 <via x="89.408" y="92.4941" extent="1-16" drill="0.381"/>
 <wire x1="89.408" y1="92.4941" x2="88.9127" y2="92.9894" width="0.254" layer="16"/>
-<wire x1="88.9127" y1="92.9894" x2="88.9127" y2="94.615" width="0.254" layer="16"/>
+<wire x1="88.9127" y1="92.9894" x2="88.9127" y2="96.647" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL19">
 <contactref element="J77" pad="4"/>
@@ -7286,14 +7506,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="116.832" y1="97.282" x2="117.594" y2="96.52" width="0.508" layer="1"/>
 <wire x1="117.594" y1="96.52" x2="117.602" y2="96.52" width="0.508" layer="1"/>
 <via x="117.602" y="96.52" extent="1-16" drill="0.381"/>
-<wire x1="117.602" y1="96.52" x2="114.681" y2="96.52" width="0.508" layer="16"/>
-<wire x1="114.681" y1="96.52" x2="113.7793" y2="95.6183" width="0.508" layer="16"/>
 <wire x1="117.602" y1="96.52" x2="117.602" y2="96.012" width="0.508" layer="16"/>
 <wire x1="117.602" y1="96.012" x2="116.84" y2="95.25" width="0.508" layer="16"/>
 <wire x1="116.84" y1="92.71" x2="117.348" y2="92.202" width="0.508" layer="16"/>
 <wire x1="117.348" y1="92.202" x2="117.348" y2="90.932" width="0.508" layer="16"/>
 <wire x1="116.84" y1="95.25" x2="116.84" y2="92.71" width="0.508" layer="16"/>
-<wire x1="113.7793" y1="94.615" x2="113.7793" y2="95.6183" width="0.508" layer="16"/>
+<wire x1="117.602" y1="96.52" x2="117.602" y2="97.409" width="0.508" layer="16"/>
+<wire x1="117.602" y1="97.409" x2="116.586" y2="98.425" width="0.508" layer="16"/>
+<wire x1="116.586" y1="98.425" x2="114.4143" y2="98.425" width="0.508" layer="16"/>
+<wire x1="114.4143" y1="98.425" x2="113.7793" y2="97.79" width="0.508" layer="16"/>
+<wire x1="113.7793" y1="96.647" x2="113.7793" y2="97.79" width="0.508" layer="16"/>
 </signal>
 <signal name="N$39">
 <contactref element="D20" pad="A"/>
@@ -7308,7 +7530,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="115.15" y1="92.6601" x2="115.316" y2="92.4941" width="0.254" layer="1"/>
 <via x="115.316" y="92.4941" extent="1-16" drill="0.381"/>
 <wire x1="115.316" y1="92.4941" x2="114.8207" y2="92.9894" width="0.254" layer="16"/>
-<wire x1="114.8207" y1="92.9894" x2="114.8207" y2="94.615" width="0.254" layer="16"/>
+<wire x1="114.8207" y1="92.9894" x2="114.8207" y2="96.647" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL20">
 <contactref element="J81" pad="4"/>
@@ -7445,14 +7667,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="13.2" y1="123.19" x2="13.962" y2="122.428" width="0.508" layer="1"/>
 <wire x1="13.962" y1="122.428" x2="13.97" y2="122.428" width="0.508" layer="1"/>
 <via x="13.97" y="122.428" extent="1-16" drill="0.381"/>
-<wire x1="13.97" y1="122.428" x2="11.049" y2="122.428" width="0.508" layer="16"/>
-<wire x1="11.049" y1="122.428" x2="10.1473" y2="121.5263" width="0.508" layer="16"/>
 <wire x1="13.97" y1="122.428" x2="13.97" y2="121.92" width="0.508" layer="16"/>
 <wire x1="13.97" y1="121.92" x2="13.208" y2="121.158" width="0.508" layer="16"/>
 <wire x1="13.208" y1="118.618" x2="13.716" y2="118.11" width="0.508" layer="16"/>
 <wire x1="13.716" y1="118.11" x2="13.716" y2="116.84" width="0.508" layer="16"/>
 <wire x1="13.208" y1="121.158" x2="13.208" y2="118.618" width="0.508" layer="16"/>
-<wire x1="10.1473" y1="120.523" x2="10.1473" y2="121.5263" width="0.508" layer="16"/>
+<wire x1="13.97" y1="122.428" x2="13.97" y2="123.317" width="0.508" layer="16"/>
+<wire x1="13.97" y1="123.317" x2="12.954" y2="124.333" width="0.508" layer="16"/>
+<wire x1="12.954" y1="124.333" x2="10.7823" y2="124.333" width="0.508" layer="16"/>
+<wire x1="10.7823" y1="124.333" x2="10.1473" y2="123.698" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="122.555" x2="10.1473" y2="123.698" width="0.508" layer="16"/>
 </signal>
 <signal name="N$41">
 <contactref element="D21" pad="A"/>
@@ -7467,7 +7691,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="11.518" y1="118.5681" x2="11.684" y2="118.4021" width="0.254" layer="1"/>
 <via x="11.684" y="118.4021" extent="1-16" drill="0.381"/>
 <wire x1="11.684" y1="118.4021" x2="11.1887" y2="118.8974" width="0.254" layer="16"/>
-<wire x1="11.1887" y1="118.8974" x2="11.1887" y2="120.523" width="0.254" layer="16"/>
+<wire x1="11.1887" y1="118.8974" x2="11.1887" y2="122.555" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL21">
 <contactref element="J85" pad="4"/>
@@ -7604,14 +7828,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="39.108" y1="123.19" x2="39.87" y2="122.428" width="0.508" layer="1"/>
 <wire x1="39.87" y1="122.428" x2="39.878" y2="122.428" width="0.508" layer="1"/>
 <via x="39.878" y="122.428" extent="1-16" drill="0.381"/>
-<wire x1="39.878" y1="122.428" x2="36.957" y2="122.428" width="0.508" layer="16"/>
-<wire x1="36.957" y1="122.428" x2="36.0553" y2="121.5263" width="0.508" layer="16"/>
 <wire x1="39.878" y1="122.428" x2="39.878" y2="121.92" width="0.508" layer="16"/>
 <wire x1="39.878" y1="121.92" x2="39.116" y2="121.158" width="0.508" layer="16"/>
 <wire x1="39.116" y1="118.618" x2="39.624" y2="118.11" width="0.508" layer="16"/>
 <wire x1="39.624" y1="118.11" x2="39.624" y2="116.84" width="0.508" layer="16"/>
 <wire x1="39.116" y1="121.158" x2="39.116" y2="118.618" width="0.508" layer="16"/>
-<wire x1="36.0553" y1="120.523" x2="36.0553" y2="121.5263" width="0.508" layer="16"/>
+<wire x1="39.878" y1="122.428" x2="39.878" y2="123.317" width="0.508" layer="16"/>
+<wire x1="39.878" y1="123.317" x2="38.862" y2="124.333" width="0.508" layer="16"/>
+<wire x1="38.862" y1="124.333" x2="36.6903" y2="124.333" width="0.508" layer="16"/>
+<wire x1="36.6903" y1="124.333" x2="36.0553" y2="123.698" width="0.508" layer="16"/>
+<wire x1="36.0553" y1="122.555" x2="36.0553" y2="123.698" width="0.508" layer="16"/>
 </signal>
 <signal name="N$43">
 <contactref element="D22" pad="A"/>
@@ -7626,7 +7852,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="37.426" y1="118.5681" x2="37.592" y2="118.4021" width="0.254" layer="1"/>
 <via x="37.592" y="118.4021" extent="1-16" drill="0.381"/>
 <wire x1="37.592" y1="118.4021" x2="37.0967" y2="118.8974" width="0.254" layer="16"/>
-<wire x1="37.0967" y1="118.8974" x2="37.0967" y2="120.523" width="0.254" layer="16"/>
+<wire x1="37.0967" y1="118.8974" x2="37.0967" y2="122.555" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL22">
 <contactref element="J89" pad="4"/>
@@ -7763,14 +7989,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="65.016" y1="123.19" x2="65.778" y2="122.428" width="0.508" layer="1"/>
 <wire x1="65.778" y1="122.428" x2="65.786" y2="122.428" width="0.508" layer="1"/>
 <via x="65.786" y="122.428" extent="1-16" drill="0.381"/>
-<wire x1="65.786" y1="122.428" x2="62.865" y2="122.428" width="0.508" layer="16"/>
-<wire x1="62.865" y1="122.428" x2="61.9633" y2="121.5263" width="0.508" layer="16"/>
 <wire x1="65.786" y1="122.428" x2="65.786" y2="121.92" width="0.508" layer="16"/>
 <wire x1="65.786" y1="121.92" x2="65.024" y2="121.158" width="0.508" layer="16"/>
 <wire x1="65.024" y1="118.618" x2="65.532" y2="118.11" width="0.508" layer="16"/>
 <wire x1="65.532" y1="118.11" x2="65.532" y2="116.84" width="0.508" layer="16"/>
 <wire x1="65.024" y1="121.158" x2="65.024" y2="118.618" width="0.508" layer="16"/>
-<wire x1="61.9633" y1="120.523" x2="61.9633" y2="121.5263" width="0.508" layer="16"/>
+<wire x1="65.786" y1="122.428" x2="65.786" y2="123.317" width="0.508" layer="16"/>
+<wire x1="65.786" y1="123.317" x2="64.77" y2="124.333" width="0.508" layer="16"/>
+<wire x1="64.77" y1="124.333" x2="62.5983" y2="124.333" width="0.508" layer="16"/>
+<wire x1="62.5983" y1="124.333" x2="61.9633" y2="123.698" width="0.508" layer="16"/>
+<wire x1="61.9633" y1="122.555" x2="61.9633" y2="123.698" width="0.508" layer="16"/>
 </signal>
 <signal name="N$45">
 <contactref element="D23" pad="A"/>
@@ -7785,7 +8013,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="63.334" y1="118.5681" x2="63.5" y2="118.4021" width="0.254" layer="1"/>
 <via x="63.5" y="118.4021" extent="1-16" drill="0.381"/>
 <wire x1="63.5" y1="118.4021" x2="63.0047" y2="118.8974" width="0.254" layer="16"/>
-<wire x1="63.0047" y1="118.8974" x2="63.0047" y2="120.523" width="0.254" layer="16"/>
+<wire x1="63.0047" y1="118.8974" x2="63.0047" y2="122.555" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL23">
 <contactref element="J93" pad="4"/>
@@ -7922,14 +8150,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="90.924" y1="123.19" x2="91.686" y2="122.428" width="0.508" layer="1"/>
 <wire x1="91.686" y1="122.428" x2="91.694" y2="122.428" width="0.508" layer="1"/>
 <via x="91.694" y="122.428" extent="1-16" drill="0.381"/>
-<wire x1="91.694" y1="122.428" x2="88.773" y2="122.428" width="0.508" layer="16"/>
-<wire x1="88.773" y1="122.428" x2="87.8713" y2="121.5263" width="0.508" layer="16"/>
 <wire x1="91.694" y1="122.428" x2="91.694" y2="121.92" width="0.508" layer="16"/>
 <wire x1="91.694" y1="121.92" x2="90.932" y2="121.158" width="0.508" layer="16"/>
 <wire x1="90.932" y1="118.618" x2="91.44" y2="118.11" width="0.508" layer="16"/>
 <wire x1="91.44" y1="118.11" x2="91.44" y2="116.84" width="0.508" layer="16"/>
 <wire x1="90.932" y1="121.158" x2="90.932" y2="118.618" width="0.508" layer="16"/>
-<wire x1="87.8713" y1="120.523" x2="87.8713" y2="121.5263" width="0.508" layer="16"/>
+<wire x1="91.694" y1="122.428" x2="91.694" y2="123.317" width="0.508" layer="16"/>
+<wire x1="91.694" y1="123.317" x2="90.678" y2="124.333" width="0.508" layer="16"/>
+<wire x1="90.678" y1="124.333" x2="88.5063" y2="124.333" width="0.508" layer="16"/>
+<wire x1="88.5063" y1="124.333" x2="87.8713" y2="123.698" width="0.508" layer="16"/>
+<wire x1="87.8713" y1="122.555" x2="87.8713" y2="123.698" width="0.508" layer="16"/>
 </signal>
 <signal name="N$47">
 <contactref element="D24" pad="A"/>
@@ -7944,7 +8174,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="89.242" y1="118.5681" x2="89.408" y2="118.4021" width="0.254" layer="1"/>
 <via x="89.408" y="118.4021" extent="1-16" drill="0.381"/>
 <wire x1="89.408" y1="118.4021" x2="88.9127" y2="118.8974" width="0.254" layer="16"/>
-<wire x1="88.9127" y1="118.8974" x2="88.9127" y2="120.523" width="0.254" layer="16"/>
+<wire x1="88.9127" y1="118.8974" x2="88.9127" y2="122.555" width="0.254" layer="16"/>
 </signal>
 <signal name="SCL24">
 <contactref element="J97" pad="4"/>
@@ -8081,14 +8311,16 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="116.832" y1="123.19" x2="117.594" y2="122.428" width="0.508" layer="1"/>
 <wire x1="117.594" y1="122.428" x2="117.602" y2="122.428" width="0.508" layer="1"/>
 <via x="117.602" y="122.428" extent="1-16" drill="0.381"/>
-<wire x1="117.602" y1="122.428" x2="114.681" y2="122.428" width="0.508" layer="16"/>
-<wire x1="114.681" y1="122.428" x2="113.7793" y2="121.5263" width="0.508" layer="16"/>
 <wire x1="117.602" y1="122.428" x2="117.602" y2="121.92" width="0.508" layer="16"/>
 <wire x1="117.602" y1="121.92" x2="116.84" y2="121.158" width="0.508" layer="16"/>
 <wire x1="116.84" y1="118.618" x2="117.348" y2="118.11" width="0.508" layer="16"/>
 <wire x1="117.348" y1="118.11" x2="117.348" y2="116.84" width="0.508" layer="16"/>
 <wire x1="116.84" y1="121.158" x2="116.84" y2="118.618" width="0.508" layer="16"/>
-<wire x1="113.7793" y1="120.523" x2="113.7793" y2="121.5263" width="0.508" layer="16"/>
+<wire x1="117.602" y1="122.428" x2="117.602" y2="123.317" width="0.508" layer="16"/>
+<wire x1="117.602" y1="123.317" x2="116.586" y2="124.333" width="0.508" layer="16"/>
+<wire x1="116.586" y1="124.333" x2="114.4143" y2="124.333" width="0.508" layer="16"/>
+<wire x1="114.4143" y1="124.333" x2="113.7793" y2="123.698" width="0.508" layer="16"/>
+<wire x1="113.7793" y1="122.555" x2="113.7793" y2="123.698" width="0.508" layer="16"/>
 </signal>
 <signal name="N$49">
 <contactref element="D25" pad="A"/>
@@ -8103,7 +8335,7 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <wire x1="115.15" y1="118.5681" x2="115.316" y2="118.4021" width="0.254" layer="1"/>
 <via x="115.316" y="118.4021" extent="1-16" drill="0.381"/>
 <wire x1="115.316" y1="118.4021" x2="114.8207" y2="118.8974" width="0.254" layer="16"/>
-<wire x1="114.8207" y1="118.8974" x2="114.8207" y2="120.523" width="0.254" layer="16"/>
+<wire x1="114.8207" y1="118.8974" x2="114.8207" y2="122.555" width="0.254" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.2">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18376,15 +18376,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="LOGO2" gate="G$1" x="236.22" y="50.8" smashed="yes"/>
 <instance part="LOGO3" gate="G$1" x="213.36" y="48.26" smashed="yes"/>
 <instance part="LOGO4" gate="G$1" x="142.24" y="38.1" smashed="yes"/>
-<instance part="J5" gate="G$1" x="55.88" y="40.64" smashed="yes">
-<attribute name="VALUE" x="50.8" y="27.686" size="1.778" layer="96" font="vector" align="top-left"/>
-<attribute name="NAME" x="50.8" y="48.514" size="1.778" layer="95" font="vector"/>
+<instance part="J5" gate="G$1" x="62.738" y="123.698" smashed="yes">
+<attribute name="VALUE" x="57.658" y="110.744" size="1.778" layer="96" font="vector" align="top-left"/>
+<attribute name="NAME" x="57.658" y="131.572" size="1.778" layer="95" font="vector"/>
 </instance>
-<instance part="GND6" gate="1" x="66.04" y="33.02" smashed="yes">
-<attribute name="VALUE" x="66.04" y="32.766" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="72.898" y="116.078" smashed="yes">
+<attribute name="VALUE" x="72.898" y="115.824" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="66.04" y="50.8" smashed="yes">
-<attribute name="VALUE" x="66.04" y="53.594" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="72.898" y="133.858" smashed="yes">
+<attribute name="VALUE" x="72.898" y="136.652" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
@@ -18413,8 +18413,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="4"/>
-<wire x1="63.5" y1="45.72" x2="68.58" y2="45.72" width="0.1524" layer="91"/>
-<label x="68.58" y="45.72" size="1.27" layer="95" xref="yes"/>
+<wire x1="70.358" y1="128.778" x2="75.438" y2="128.778" width="0.1524" layer="91"/>
+<label x="75.438" y="128.778" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -18440,8 +18440,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="3"/>
-<wire x1="63.5" y1="43.18" x2="68.58" y2="43.18" width="0.1524" layer="91"/>
-<label x="68.58" y="43.18" size="1.27" layer="95" xref="yes"/>
+<wire x1="70.358" y1="126.238" x2="75.438" y2="126.238" width="0.1524" layer="91"/>
+<label x="75.438" y="126.238" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -18476,8 +18476,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="1"/>
-<wire x1="63.5" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="38.1" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="70.358" y1="121.158" x2="72.898" y2="121.158" width="0.1524" layer="91"/>
+<wire x1="72.898" y1="121.158" x2="72.898" y2="118.618" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
 </segment>
 </net>
@@ -18513,8 +18513,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="J5" gate="G$1" pin="2"/>
-<wire x1="63.5" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="40.64" x2="66.04" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="70.358" y1="123.698" x2="72.898" y2="123.698" width="0.1524" layer="91"/>
+<wire x1="72.898" y1="123.698" x2="72.898" y2="133.858" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 </segment>
 </net>

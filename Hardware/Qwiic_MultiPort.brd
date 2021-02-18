@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<eagle version="9.5.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
@@ -32,34 +32,34 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -2544,62 +2544,43 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J2" pad="4"/>
 <contactref element="J4" pad="4"/>
 <contactref element="J3" pad="4"/>
-<via x="6.8199" y="11.303" extent="1-16" drill="0.381"/>
-<via x="16.002" y="10.541" extent="1-16" drill="0.381"/>
-<wire x1="16.002" y1="13.208" x2="16.002" y2="10.541" width="0.254" layer="1"/>
-<wire x1="11.2" y1="20.32" x2="11.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="12.851" y1="17.78" x2="11.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="12.851" y1="17.78" x2="12.851" y2="14.097" width="0.254" layer="1"/>
-<wire x1="12.851" y1="14.097" x2="12.851" y2="11.581" width="0.254" layer="1"/>
-<wire x1="12.851" y1="11.581" x2="12.192" y2="10.922" width="0.254" layer="1"/>
-<via x="12.192" y="10.922" extent="1-16" drill="0.381"/>
-<wire x1="12.192" y1="10.922" x2="12.192" y2="9.779" width="0.254" layer="16"/>
-<wire x1="12.192" y1="9.779" x2="14.224" y2="7.747" width="0.254" layer="16"/>
-<via x="14.224" y="7.747" extent="1-16" drill="0.381"/>
-<wire x1="14.224" y1="7.747" x2="14.224" y2="5.104" width="0.254" layer="1"/>
-<wire x1="14.2" y1="5.08" x2="14.224" y2="5.104" width="0.254" layer="1"/>
-<wire x1="12.851" y1="14.097" x2="8.509" y2="14.097" width="0.254" layer="16"/>
-<wire x1="8.509" y1="14.097" x2="6.858" y2="12.446" width="0.254" layer="16"/>
-<via x="12.851" y="14.097" extent="1-16" drill="0.381"/>
-<wire x1="6.8199" y1="11.303" x2="6.858" y2="11.3411" width="0.254" layer="16"/>
-<wire x1="6.858" y1="12.446" x2="6.858" y2="11.3411" width="0.254" layer="16"/>
-<wire x1="5.08" y1="11.2" x2="6.7169" y2="11.2" width="0.254" layer="1"/>
-<wire x1="6.7169" y1="11.2" x2="6.8199" y2="11.303" width="0.254" layer="1"/>
-<wire x1="20.32" y1="14.2" x2="16.994" y2="14.2" width="0.254" layer="1"/>
-<wire x1="16.994" y1="14.2" x2="16.002" y2="13.208" width="0.254" layer="1"/>
-<wire x1="16.002" y1="10.541" x2="14.986" y2="11.557" width="0.254" layer="16"/>
-<wire x1="14.986" y1="11.557" x2="9.1059" y2="11.557" width="0.254" layer="16"/>
-<wire x1="9.1059" y1="11.557" x2="8.8519" y2="11.303" width="0.254" layer="16"/>
-<wire x1="8.8519" y1="11.303" x2="6.8199" y2="11.303" width="0.254" layer="16"/>
+<wire x1="5.08" y1="11.2" x2="14.2" y2="11.2" width="0.254" layer="1"/>
+<wire x1="14.2" y1="11.2" x2="14.224" y2="11.176" width="0.254" layer="1"/>
+<wire x1="14.224" y1="11.176" x2="14.224" y2="5.104" width="0.254" layer="1"/>
+<wire x1="14.224" y1="5.104" x2="14.2" y2="5.08" width="0.254" layer="1"/>
+<wire x1="20.32" y1="14.2" x2="14.224" y2="14.2" width="0.254" layer="1"/>
+<wire x1="14.224" y1="13.081" x2="14.224" y2="12.7" width="0.254" layer="1"/>
+<wire x1="14.224" y1="12.7" x2="14.224" y2="11.176" width="0.254" layer="1"/>
+<wire x1="11.2" y1="20.32" x2="11.2" y2="18.899" width="0.254" layer="1"/>
+<wire x1="11.2" y1="18.899" x2="11.8745" y2="18.2245" width="0.254" layer="1"/>
+<wire x1="11.8745" y1="18.2245" x2="13.3985" y2="18.2245" width="0.254" layer="1"/>
+<wire x1="13.3985" y1="18.2245" x2="14.224" y2="17.399" width="0.254" layer="1"/>
+<wire x1="14.224" y1="17.399" x2="14.224" y2="14.2" width="0.254" layer="1"/>
+<wire x1="14.224" y1="13.081" x2="14.224" y2="14.2" width="0.254" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="J1" pad="3"/>
 <contactref element="J2" pad="3"/>
 <contactref element="J3" pad="3"/>
 <contactref element="J4" pad="3"/>
-<via x="7.874" y="12.065" extent="1-16" drill="0.381"/>
-<wire x1="17.018" y1="12.065" x2="7.874" y2="12.065" width="0.254" layer="16"/>
-<wire x1="17.05004375" y1="12.09704375" x2="17.018" y2="12.065" width="0.254" layer="16"/>
-<via x="17.05004375" y="12.09704375" extent="1-16" drill="0.381"/>
-<via x="11.90654375" y="8.79445625" extent="1-16" drill="0.381"/>
-<wire x1="11.90654375" y1="8.79445625" x2="13.208" y2="7.493" width="0.254" layer="16"/>
-<via x="13.208" y="7.493" extent="1-16" drill="0.381"/>
-<wire x1="13.208" y1="7.493" x2="13.208" y2="5.088" width="0.254" layer="1"/>
-<wire x1="13.2" y1="5.08" x2="13.208" y2="5.088" width="0.254" layer="1"/>
-<wire x1="5.08" y1="12.2" x2="7.739" y2="12.2" width="0.254" layer="1"/>
-<wire x1="7.739" y1="12.2" x2="7.874" y2="12.065" width="0.254" layer="1"/>
-<wire x1="12.2" y1="20.32" x2="12.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="13.597" y1="18.034" x2="12.2" y2="19.431" width="0.254" layer="1"/>
-<wire x1="13.597" y1="18.034" x2="13.597" y2="11.176" width="0.254" layer="1"/>
-<wire x1="11.819" y1="10.16" x2="11.819" y2="8.882" width="0.254" layer="1"/>
-<wire x1="11.819" y1="8.882" x2="11.90654375" y2="8.79445625" width="0.254" layer="1"/>
-<wire x1="20.32" y1="13.2" x2="18.153" y2="13.2" width="0.254" layer="1"/>
-<wire x1="18.153" y1="13.2" x2="17.05004375" y2="12.09704375" width="0.254" layer="1"/>
-<wire x1="9.906" y1="12.065" x2="7.874" y2="12.065" width="0.254" layer="1"/>
-<wire x1="11.811" y1="10.16" x2="9.906" y2="12.065" width="0.254" layer="1"/>
-<wire x1="11.811" y1="10.16" x2="11.819" y2="10.16" width="0.254" layer="1"/>
-<wire x1="11.819" y1="10.16" x2="12.581" y2="10.16" width="0.254" layer="1"/>
-<wire x1="12.581" y1="10.16" x2="13.597" y2="11.176" width="0.254" layer="1"/>
+<wire x1="13.208" y1="5.088" x2="13.2" y2="5.08" width="0.254" layer="1"/>
+<wire x1="5.08" y1="12.2" x2="13.2" y2="12.2" width="0.254" layer="1"/>
+<wire x1="13.2" y1="12.2" x2="13.208" y2="12.192" width="0.254" layer="1"/>
+<via x="13.208" y="12.192" extent="1-16" drill="0.381"/>
+<wire x1="13.208" y1="12.192" x2="13.208" y2="10.414" width="0.254" layer="16"/>
+<via x="13.208" y="10.414" extent="1-16" drill="0.381"/>
+<wire x1="13.208" y1="10.414" x2="13.208" y2="5.088" width="0.254" layer="1"/>
+<wire x1="20.32" y1="13.2" x2="15.375" y2="13.2" width="0.254" layer="1"/>
+<wire x1="15.375" y1="13.2" x2="15.367" y2="13.208" width="0.254" layer="1"/>
+<via x="15.367" y="13.208" extent="1-16" drill="0.381"/>
+<wire x1="15.367" y1="13.208" x2="14.351" y2="12.192" width="0.254" layer="16"/>
+<wire x1="14.351" y1="12.192" x2="13.208" y2="12.192" width="0.254" layer="16"/>
+<wire x1="12.2" y1="20.32" x2="12.2" y2="19.058" width="0.254" layer="1"/>
+<wire x1="12.2" y1="19.058" x2="12.192" y2="19.05" width="0.254" layer="1"/>
+<via x="12.192" y="19.05" extent="1-16" drill="0.381"/>
+<wire x1="12.192" y1="19.05" x2="13.335" y2="17.907" width="0.254" layer="16"/>
+<wire x1="13.335" y1="17.907" x2="13.335" y2="12.319" width="0.254" layer="16"/>
+<wire x1="13.335" y1="12.319" x2="13.208" y2="12.192" width="0.254" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="J2" pad="1"/>
@@ -2646,35 +2627,31 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <contactref element="J3" pad="2"/>
 <contactref element="J2" pad="2"/>
 <contactref element="J4" pad="2"/>
-<via x="11.684" y="13.208" extent="1-16" drill="0.381"/>
-<wire x1="17.145" y1="13.208" x2="13.716" y2="13.208" width="0.508" layer="16"/>
-<wire x1="13.716" y1="13.208" x2="11.684" y2="13.208" width="0.508" layer="16"/>
-<wire x1="17.145" y1="13.208" x2="18.161" y2="12.192" width="0.508" layer="16"/>
-<via x="18.161" y="12.192" extent="1-16" drill="0.381"/>
-<wire x1="18.161" y1="12.192" x2="18.161" y2="11.43" width="0.508" layer="1"/>
-<wire x1="18.161" y1="11.43" x2="16.129" y2="9.398" width="0.508" layer="1"/>
-<wire x1="11.684" y1="13.208" x2="11.676" y2="13.2" width="0.508" layer="1"/>
-<wire x1="11.676" y1="13.2" x2="5.08" y2="13.2" width="0.508" layer="1"/>
-<wire x1="13.2" y1="20.32" x2="13.2" y2="19.558" width="0.508" layer="1"/>
-<wire x1="16.129" y1="9.398" x2="13.716" y2="9.398" width="0.508" layer="1"/>
-<wire x1="20.32" y1="12.2" x2="18.169" y2="12.2" width="0.508" layer="1"/>
-<wire x1="18.169" y1="12.2" x2="18.161" y2="12.192" width="0.254" layer="1"/>
-<wire x1="12.2" y1="5.08" x2="12.2" y2="7.882" width="0.508" layer="1"/>
-<wire x1="12.2" y1="7.882" x2="13.716" y2="9.398" width="0.508" layer="1"/>
 <contactref element="JP1" pad="2"/>
-<wire x1="13.2" y1="19.558" x2="13.962" y2="18.796" width="0.508" layer="1"/>
-<wire x1="13.962" y1="18.796" x2="13.97" y2="18.796" width="0.508" layer="1"/>
-<via x="13.97" y="18.796" extent="1-16" drill="0.381"/>
-<wire x1="13.97" y1="18.796" x2="13.97" y2="18.288" width="0.508" layer="16"/>
-<wire x1="13.97" y1="18.288" x2="13.208" y2="17.526" width="0.508" layer="16"/>
-<wire x1="13.208" y1="14.986" x2="13.716" y2="14.478" width="0.508" layer="16"/>
-<wire x1="13.716" y1="14.478" x2="13.716" y2="13.208" width="0.508" layer="16"/>
-<wire x1="13.208" y1="17.526" x2="13.208" y2="14.986" width="0.508" layer="16"/>
-<wire x1="13.97" y1="18.796" x2="13.97" y2="19.685" width="0.508" layer="16"/>
-<wire x1="13.97" y1="19.685" x2="12.954" y2="20.701" width="0.508" layer="16"/>
-<wire x1="12.954" y1="20.701" x2="10.7823" y2="20.701" width="0.508" layer="16"/>
-<wire x1="10.7823" y1="20.701" x2="10.1473" y2="20.066" width="0.508" layer="16"/>
-<wire x1="10.1473" y1="18.923" x2="10.1473" y2="20.066" width="0.508" layer="16"/>
+<wire x1="5.08" y1="13.2" x2="12.184" y2="13.2" width="0.508" layer="1"/>
+<wire x1="12.184" y1="13.2" x2="12.192" y2="13.208" width="0.508" layer="1"/>
+<via x="12.192" y="13.208" extent="1-16" drill="0.381"/>
+<wire x1="12.192" y1="13.208" x2="12.192" y2="9.525" width="0.508" layer="16"/>
+<via x="12.192" y="9.525" extent="1-16" drill="0.381"/>
+<wire x1="12.192" y1="9.525" x2="12.192" y2="5.088" width="0.508" layer="1"/>
+<wire x1="12.192" y1="5.088" x2="12.2" y2="5.08" width="0.508" layer="1"/>
+<wire x1="12.192" y1="13.208" x2="12.192" y2="14.859" width="0.508" layer="16"/>
+<wire x1="12.192" y1="14.859" x2="10.287" y2="16.764" width="0.508" layer="16"/>
+<wire x1="10.16" y1="16.764" x2="10.287" y2="16.764" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="18.923" x2="10.16" y2="18.9103" width="0.508" layer="16"/>
+<wire x1="10.16" y1="18.9103" x2="10.16" y2="16.764" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="18.923" x2="10.1473" y2="21.4503" width="0.508" layer="16"/>
+<wire x1="10.1473" y1="21.4503" x2="10.668" y2="21.971" width="0.508" layer="16"/>
+<wire x1="10.668" y1="21.971" x2="13.208" y2="21.971" width="0.508" layer="16"/>
+<via x="13.208" y="21.971" extent="1-16" drill="0.381"/>
+<wire x1="13.208" y1="21.971" x2="13.208" y2="20.328" width="0.508" layer="1"/>
+<wire x1="13.208" y1="20.328" x2="13.2" y2="20.32" width="0.508" layer="1"/>
+<wire x1="20.32" y1="12.2" x2="15.756" y2="12.2" width="0.508" layer="1"/>
+<wire x1="15.756" y1="12.2" x2="15.748" y2="12.192" width="0.508" layer="1"/>
+<via x="15.748" y="12.192" extent="1-16" drill="0.381"/>
+<wire x1="15.748" y1="12.192" x2="15.748" y2="10.541" width="0.508" layer="16"/>
+<wire x1="15.748" y1="10.541" x2="14.732" y2="9.525" width="0.508" layer="16"/>
+<wire x1="14.732" y1="9.525" x2="12.192" y2="9.525" width="0.508" layer="16"/>
 </signal>
 <signal name="N$1">
 <contactref element="D1" pad="A"/>
@@ -2685,11 +2662,12 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <signal name="N$2">
 <contactref element="R1" pad="2"/>
 <contactref element="JP1" pad="1"/>
-<wire x1="11.518" y1="16.002" x2="11.518" y2="14.9361" width="0.254" layer="1"/>
-<wire x1="11.518" y1="14.9361" x2="11.684" y2="14.7701" width="0.254" layer="1"/>
-<via x="11.684" y="14.7701" extent="1-16" drill="0.381"/>
-<wire x1="11.684" y1="14.7701" x2="11.1887" y2="15.2654" width="0.254" layer="16"/>
-<wire x1="11.1887" y1="15.2654" x2="11.1887" y2="18.923" width="0.254" layer="16"/>
+<wire x1="11.518" y1="16.002" x2="12.6619" y2="16.002" width="0.254" layer="1"/>
+<via x="12.6619" y="16.002" extent="1-16" drill="0.381"/>
+<wire x1="12.7" y1="16.383" x2="12.7" y2="16.0401" width="0.254" layer="16"/>
+<wire x1="12.6619" y1="16.002" x2="12.7" y2="16.0401" width="0.254" layer="16"/>
+<wire x1="12.7" y1="16.383" x2="11.1887" y2="17.8943" width="0.254" layer="16"/>
+<wire x1="11.1887" y1="17.8943" x2="11.1887" y2="18.923" width="0.254" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -2702,6 +2680,8 @@ These are the free and generally easy to produce 2-layer PCB design rules. You c
 <errors>
 <approved hash="5,16,7f1776ee5d869773"/>
 <approved hash="19,16,969bce1dcce3e8b2"/>
+<approved hash="5,16,6615a90e14cb0d1b"/>
+<approved hash="5,16,9de5c32b529a5655"/>
 </errors>
 </board>
 </drawing>

@@ -1,7 +1,7 @@
 Qwiic MultiStar
 ========================================
 
-[![SparkFun Qwiic MultiStar](https://cdn.sparkfun.com/assets/home_page_posts/3/8/0/3/Qwiic_MultiStar.jpg)(https://www.sparkfun.com/news/3803)
+[![SparkFun Qwiic MultiStar](https://cdn.sparkfun.com/assets/home_page_posts/3/8/0/3/Qwiic_MultiStar.jpg)](https://www.sparkfun.com/news/3803)
 
 [*SparkFun Qwiic MultiStar*](https://www.sparkfun.com/news/3803)
 
